@@ -11,7 +11,10 @@
     "echarts-for-react": "^3.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-pro-sidebar": "^0.7.1",
     "react-scripts": "5.0.0",
+    "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

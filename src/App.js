@@ -1,15 +1,18 @@
 import React, { Component } from "react";
-import Chart from "./chart";
-import "./App.css";
+import ReactEChartsCore from "echarts-for-react/lib/core";
+import Sidebar from './Sidebar';
 
+import Chart from './chart';
 class App extends Component {
-  componentDidMount() {}
-
   render() {
     return (
-      <div>
-        <div>hahahas</div>
+      <div style={{backgroundColor:"grey", width:"100%" ,display:"flex", flexDirection:"row"}}>
+        <div style={{ height:"100%"}}>
+          <Sidebar />
+        </div>
+        <div style={{backgroundColor:"pink", width:"100%", height:"100%"}} >
         <Chart />
+          </div>
       </div>
     );
   }
