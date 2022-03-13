@@ -22,11 +22,13 @@ echarts.use([
 ]);
 echarts.registerMap("csd", csdJson);
 
-const Chart = () => {
+const Chart = (props) => {
   const communities = communitiesCoords.map(({ name, lat, lon }) => ({
     name,
     value: [lon, lat, 1],
   }));
+  const filter_communities = communities.filter(obj => obj.name.toLowerCase().includes(props.keyword.toString().toLowerCase()));
+  console.log(filter_communities.length);
   const options = {
     tooltip: {
       trigger: "item",
@@ -42,7 +44,18 @@ const Chart = () => {
       max: 10,
       inRange: {
         // prettier-ignore
-        color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026'],
+        // color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026'],
+        color:['#F7FBFF',
+        '#E0F3DB',
+        '#CCEBC5',
+        '#A8DDB5',
+        '#7BCCC4',
+        '#4EB3D3',
+        '#2B8CBE',
+        '#0868AC',
+        '#084081'
+
+      ]
       },
       text: ["High", "Low"],
       calculable: true,
@@ -63,11 +76,16 @@ const Chart = () => {
         type: "scatter",
         coordinateSystem: "geo",
         geoIndex: 0,
-        data: communities,
-        symbolSize: 20,
+        // data: communities,
+        data: filter_communities,
+        symbolSize: 5,
         itemStyle: {
+          areaColor:'#eee',
           color: "#ddb926",
           opacity: 0.7,
+          borderColor: '#000' ,
+          borderWidth: 1 ,
+          borderType: 'solid' 
         },
         encode: {
           value: 2,
