@@ -40,7 +40,6 @@ class Table extends React.Component {
       yAxis: {
         type: "category",
         data: map
-          //   .map((element) => element.name)
           .filter(
             (item, index) =>
               index % parseInt(interval) === 0 || item.name === name

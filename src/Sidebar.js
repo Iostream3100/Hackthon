@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React,{ Component } from "react";
 import {
   ProSidebar,
   SidebarHeader,
@@ -49,9 +49,10 @@ class Sidebar extends Component {
             justifyContent: "center",
           }}
         >
-          <h1> Food Insecurity</h1>
+          <img src={require('./unitedway.png')} width="300"  />
         </SidebarHeader>
         <SidebarContent>
+        <h1> Food Insecurity</h1>
           <Search
             addonBefore="community"
             placeholder="input search text"
