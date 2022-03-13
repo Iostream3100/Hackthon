@@ -27,16 +27,22 @@ const Chart = (props) => {
     name,
     value: [lon, lat, 1],
   }));
-  const filter_communities = communities.filter(obj => obj.name.toLowerCase().includes(props.keyword.toString().toLowerCase()));
-  console.log(filter_communities.length);
+  const filter_communities = communities.filter(obj => obj.name.toLowerCase().includes(props.keyword.toString().toLowerCase())).map(obj => ({"name":obj.name,"value":obj.value,"visualMap":false}));
+  console.log(filter_communities);
   const options = {
+    title:{
+      text: 'BC Community Food Insecurity Estimates',
+      subtext: 'Support for United Way Funding Assessment',
+      left: 'right'
+    },
+
     tooltip: {
       trigger: "item",
     },
     geo: {
       roam: true,
       map: "csd",
-      zoom: 2,
+      zoom: 1.5,
     },
     visualMap: {
       left: "right",
@@ -45,7 +51,8 @@ const Chart = (props) => {
       inRange: {
         // prettier-ignore
         // color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026'],
-        color:['#F7FBFF',
+        color:[
+          '#fff','#F7FBFF',
         '#E0F3DB',
         '#CCEBC5',
         '#A8DDB5',
@@ -53,7 +60,7 @@ const Chart = (props) => {
         '#4EB3D3',
         '#2B8CBE',
         '#0868AC',
-        '#084081'
+        '#084081',
 
       ]
       },
@@ -68,7 +75,7 @@ const Chart = (props) => {
           roam: true,
           zoom: 2,
           universalTransition: true,
-          data: rateIndex,
+          data: props.division?rateIndex:"",
           geoIndex: 0,
         },
       {
@@ -76,17 +83,16 @@ const Chart = (props) => {
         type: "scatter",
         coordinateSystem: "geo",
         geoIndex: 0,
-        // data: communities,
-        data: filter_communities,
-        symbolSize: 5,
+        data: props.community?filter_communities:"",
+        symbolSize: 7,
         itemStyle: {
-          areaColor:'#eee',
-          color: "#ddb926",
+          color: "#f46d43",
           opacity: 0.7,
           borderColor: '#000' ,
           borderWidth: 1 ,
           borderType: 'solid' 
         },
+        
         encode: {
           value: 2,
         },

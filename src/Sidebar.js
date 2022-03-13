@@ -11,7 +11,8 @@ class Sidebar extends Component {
   constructor(props){
     super(props);
     this.state={
-      collapsed:false
+      collapsed:false,
+
     }
   }
 
@@ -43,8 +44,9 @@ class Sidebar extends Component {
     />
   <Menu iconShape="square" subMenuBullets="true">
     <SubMenu title="View in Map"  open= {this.props.view==="map"} onOpenChange={()=>this.props.onOpenChange("map")} icon={<FaHeart />}>
-          <MenuItem>Community</MenuItem>
-          <MenuItem>Division</MenuItem>
+          <MenuItem active={this.props.community} onClick={()=>this.props.onCommunity()}>Community</MenuItem>
+          
+          <MenuItem active={this.props.division} onClick={()=>this.props.onDivision()}>Division</MenuItem>
         </SubMenu>
       <SubMenu icon={<FaGem />} open= {this.props.view==="stat"} onOpenChange={()=>this.props.onOpenChange("stat")} title="Statistics">
         <MenuItem>chart type</MenuItem>
