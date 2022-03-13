@@ -104,6 +104,19 @@ const Chart = (props) => {
     ],
   };
 
+  const onEvents = {
+    'click': (e)=>{
+      if(e.componentSubType==='map'){
+        console.log(e.data.name)
+        props.onChooseCSD(e.data.name)
+        
+      }
+    },
+    'legendselectchanged': (e)=>{
+      console.log(e)
+    }
+  }
+
   return (
     <div>
       <ReactEChartsCore
@@ -112,6 +125,7 @@ const Chart = (props) => {
         notMerge={true}
         lazyUpdate={true}
         style={{ height: "100vh" }}
+        onEvents={onEvents}
       />
     </div>
   );

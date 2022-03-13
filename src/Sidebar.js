@@ -10,7 +10,7 @@ import {
 } from "react-pro-sidebar";
 import { Input } from "antd";
 import "react-pro-sidebar/dist/css/styles.css";
-// import './Sidebar.scss';
+// import './Sidebar.css';
 
 import { FaGem, FaHeart } from "react-icons/fa";
 
@@ -36,10 +36,11 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <ProSidebar
+      <ProSidebar 
         onToggle={this.onToggle}
         collapsed={this.state.collapsed}
-        style={{ height: "100vh", width: "300px" }}
+        style={{ height: "100vh", 
+        width: "300px", }}
       >
         <SidebarHeader
           style={{
@@ -85,7 +86,30 @@ class Sidebar extends Component {
               onOpenChange={() => this.props.onOpenChange("stat")}
               title="Statistics"
             >
-              <MenuItem>chart type</MenuItem>
+             <MenuItem
+                active={this.props.type==="1"}
+                onClick={() => this.props.onChangeType("1")}
+              >
+                Female Lone Family
+              </MenuItem>
+              <MenuItem
+                active={this.props.type==="2"}
+                onClick={() => this.props.onChangeType("2")}
+              >
+                Households Income
+              </MenuItem>
+              <MenuItem
+                active={this.props.type==="3"}
+                onClick={() => this.props.onChangeType("3")}
+              >
+                Aboriginal Identity
+              </MenuItem>
+              <MenuItem
+                active={this.props.type==="4"}
+                onClick={() => this.props.onChangeType("4")}
+              >
+                Immigrant Status
+              </MenuItem>
             </SubMenu>
           </Menu>
         </SidebarContent>

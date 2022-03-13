@@ -30,7 +30,9 @@ class App extends Component {
       view: "map",
       community: true,
       division: true,
+      currCSD:"Pavilion 1",
       interval: 30,
+      type:"0"
     };
   }
 
@@ -38,6 +40,7 @@ class App extends Component {
     console.log(kw);
     this.setState({
       keyword: kw,
+      view:"map"
     });
   };
 
@@ -45,6 +48,7 @@ class App extends Component {
     console.log(view);
     this.setState({
       view: view,
+      type:"0"
     });
   };
 
@@ -58,8 +62,26 @@ class App extends Component {
     this.setState({
       division: !this.state.division,
     });
-    this.state = { interval: 30 };
+    // this.state = { interval: 30 };
   };
+
+  onChooseCSD = (csd)=>{
+    this.setState({
+      currCSD:csd,
+      view:"stat"
+
+    })
+  }
+  onChangeType = (type)=>{
+    this.setState({
+      type:type
+    })
+    console.log(type);
+  }
+
+  female = () =>{
+    
+  }
 
   render() {
     return (
@@ -73,6 +95,8 @@ class App extends Component {
             onCommunity={this.onCommunity}
             division={this.state.division}
             onDivision={this.onDivision}
+            type={this.state.type}
+            onChangeType={this.onChangeType}
           />
         </div>
         <div style={{ width: "100%", height: "100%" }}>
@@ -81,13 +105,17 @@ class App extends Component {
               keyword={this.state.keyword}
               division={this.state.division}
               community={this.state.community}
+              onChooseCSD={this.onChooseCSD}
             />
           ) : (
-            <div>
-              <h1>Female Lone Parent Family</h1>
+            <div  >
+              <h1> Statistics of {this.state.currCSD}</h1>
+              {this.state.type==="0" || this.state.type==="1"?( 
+              <div>
+              <h2>Female Lone Parent Family</h2>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table1"
                 interval={this.state.interval}
                 title="Percentage of Total Lone-Parent Female Family Households"
@@ -95,7 +123,7 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table2"
                 interval={this.state.interval}
                 title="Percentage of Female Lone Parent Family Households with 1 Child"
@@ -103,7 +131,7 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table3"
                 interval={this.state.interval}
                 title="Percentage of Female Lone Parent Family Households with 2 Child"
@@ -111,16 +139,20 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table4"
                 interval={this.state.interval}
                 title="Percentage of Female Lone Parent Family Households with 3+ Child"
                 per_Name="per_Female3"
               ></Table>
-              <h1>Households Income</h1>
+              </div>):(<div/>)}
+
+              {this.state.type==="0" || this.state.type==="2"?( 
+              <div>
+              <h2>Households Income</h2>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table5"
                 interval={this.state.interval}
                 title="Percentage of Households Income 0-19999"
@@ -128,7 +160,7 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table6"
                 interval={this.state.interval}
                 title="Percentage of Households Income 20000-39999"
@@ -136,7 +168,7 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table7"
                 interval={this.state.interval}
                 title="Percentage of Households Income 40000-59999"
@@ -144,25 +176,35 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table8"
                 interval={this.state.interval}
                 title="Average Household Income"
                 per_Name="per_Income_Ave"
               ></Table>
-              <h1>Aboriginal Identity</h1>
+              </div>
+              ):(<div/>)}
+
+            {this.state.type==="0" || this.state.type==="3"?( 
+              <div>
+              <h2>Aboriginal Identity</h2>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table9"
                 interval={this.state.interval}
                 title="Percentage of Household Population with Aboriginal Identity"
                 per_Name="per_Abo"
               ></Table>
-              <h1>Immigrant</h1>
+              </div>
+            ):(<div/>)}
+
+            {this.state.type==="0" || this.state.type==="4"?( 
+              <div>
+              <h2>Immigrant Status</h2>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table10"
                 interval={this.state.interval}
                 title="Percentage of Household Population Immigrant"
@@ -170,12 +212,14 @@ class App extends Component {
               ></Table>
               <Table
                 map={adjusted_map}
-                name="Pavilion 1"
+                name={this.state.currCSD}
                 className="table11"
                 interval={this.state.interval}
                 title="Percentage of Household Population of Recent Immigrants (2017-Present)"
                 per_Name="per_Immi_Rec"
               ></Table>
+              </div>
+            ):(<div/>)}
             </div>
           )}
         </div>

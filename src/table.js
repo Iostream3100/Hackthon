@@ -68,7 +68,7 @@ class Table extends React.Component {
             .map((element) => element[per_Name]),
           itemStyle: {
             color: function (params) {
-              var c = "rgb(168,221,181) ";
+              var c = "#A8DDB5 ";
               if (
                 params.value ===
                   map.filter((item, index) => item.name === name)[0][
@@ -76,7 +76,7 @@ class Table extends React.Component {
                   ] &&
                 first
               ) {
-                c = "red";
+                c = "#f46d43";
                 first = false;
               }
               return c;
