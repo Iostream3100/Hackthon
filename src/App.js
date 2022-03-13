@@ -2,20 +2,14 @@ import React, { Component } from "react";
 import Chart from "./chart";
 import "./App.css";
 
-
-
 class App extends Component {
-  
-  componentDidMount() {
-  }
-
-
+  componentDidMount() {}
 
   render() {
-    
     return (
       <div>
-         <Chart/>
+        <div>hahahas</div>
+        <Chart />
       </div>
     );
   }
