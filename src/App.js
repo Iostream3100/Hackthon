@@ -1,25 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import ReactEChartsCore from "echarts-for-react/lib/core";
+import * as echarts from "echarts/core";
+import {
+  TitleComponent,
+  TooltipComponent,
+  VisualMapComponent,
+} from "echarts/components";
+import { MapChart } from "echarts/charts";
+import { CanvasRenderer } from "echarts/renderers";
+import csdJson from "./csd.json";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const data = [];
+const options = {
+  series: [
+    {
+      id: "population",
+      type: "map",
+      roam: true,
+      map: "csd",
+      projection: {
+        project: (point) => [
+          (point[0] / 180) * Math.PI,
+          -Math.log(Math.tan((Math.PI / 2 + (point[1] / 180) * Math.PI) / 2)),
+        ],
+        unproject: (point) => [
+          (point[0] * 180) / Math.PI,
+          ((2 * 180) / Math.PI) * Math.atan(Math.exp(point[1])) - 90,
+        ],
+      },
+      universalTransition: true,
+      data: data,
+    },
+  ],
+};
+
+echarts.use([
+  MapChart,
+  TitleComponent,
+  TooltipComponent,
+  VisualMapComponent,
+  CanvasRenderer,
+]);
+echarts.registerMap("csd", csdJson);
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <ReactEChartsCore
+          echarts={echarts}
+          option={options}
+          notMerge={true}
+          lazyUpdate={true}
+          theme={"theme_name"}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
