@@ -80,7 +80,7 @@ const Chart = () => {
           option={options}
           notMerge={true}
           lazyUpdate={true}
-          style={{ height: "1000px" }}
+          style={{ height: "100vh" }}
         />
       </div>
     );
