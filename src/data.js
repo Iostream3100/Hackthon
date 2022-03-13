@@ -737,3 +737,4496 @@ export const rateIndex = [
   { name: "Ingenika Point", value: 3 },
   { name: "Doig River 206", value: 3 },
 ];
+
+export const communitiesCoords = [
+ {
+   "name": "108 Mile Ranch",
+   "lat": 51.75,
+   "lon": -121.35
+ },
+ {
+   "name": "141 Mile House",
+   "lat": 52,
+   "lon": -121.85
+ },
+ {
+   "name": "150 Mile House",
+   "lat": 52.10555556,
+   "lon": -121.9277778
+ },
+ {
+   "name": "70 Mile House",
+   "lat": 51.3,
+   "lon": -121.4
+ },
+ {
+   "name": "93 Mile",
+   "lat": 51.56666667,
+   "lon": -121.3333333
+ },
+ {
+   "name": "Abbotsford",
+   "lat": 49.05,
+   "lon": -122.2833333
+ },
+ {
+   "name": "Aberdeen",
+   "lat": 50.65,
+   "lon": -120.3666667
+ },
+ {
+   "name": "Aberdeen",
+   "lat": 49.05,
+   "lon": -122.4166667
+ },
+ {
+   "name": "Adams Lake",
+   "lat": 50.96666667,
+   "lon": -119.6833333
+ },
+ {
+   "name": "Agassiz",
+   "lat": 49.23333333,
+   "lon": -121.7666667
+ },
+ {
+   "name": "Ainsworth Hot Springs",
+   "lat": 49.73333333,
+   "lon": -116.9111111
+ },
+ {
+   "name": "Alberni",
+   "lat": 49.25,
+   "lon": -124.8
+ },
+ {
+   "name": "Albert Head",
+   "lat": 48.39166667,
+   "lon": -123.5041667
+ },
+ {
+   "name": "Albion",
+   "lat": 49.18333333,
+   "lon": -122.55
+ },
+ {
+   "name": "Aldergrove",
+   "lat": 49.05,
+   "lon": -122.4666667
+ },
+ {
+   "name": "Alexandria",
+   "lat": 52.63333333,
+   "lon": -122.45
+ },
+ {
+   "name": "Alexis Creek",
+   "lat": 52.08333333,
+   "lon": -123.2833333
+ },
+ {
+   "name": "Aleza Lake",
+   "lat": 54.11666667,
+   "lon": -122.0333333
+ },
+ {
+   "name": "Alkali Lake",
+   "lat": 51.78333333,
+   "lon": -122.2333333
+ },
+ {
+   "name": "Almond Gardens",
+   "lat": 49.01666667,
+   "lon": -118.5
+ },
+ {
+   "name": "Alpine Meadows",
+   "lat": 50.15,
+   "lon": -122.9666667
+ },
+ {
+   "name": "Altamont",
+   "lat": 49.33333333,
+   "lon": -123.2
+ },
+ {
+   "name": "Altona",
+   "lat": 56.9,
+   "lon": -120.9
+ },
+ {
+   "name": "Ambleside",
+   "lat": 49.31666667,
+   "lon": -123.15
+ },
+ {
+   "name": "Anahim Lake",
+   "lat": 52.46666667,
+   "lon": -125.3166667
+ },
+ {
+   "name": "Anglemont",
+   "lat": 50.96666667,
+   "lon": -119.1666667
+ },
+ {
+   "name": "Anniedale",
+   "lat": 49.16666667,
+   "lon": -122.7166667
+ },
+ {
+   "name": "Annis",
+   "lat": 50.79305556,
+   "lon": -119.0833333
+ },
+ {
+   "name": "Appledale",
+   "lat": 49.65,
+   "lon": -117.5333333
+ },
+ {
+   "name": "Arbutus Ridge",
+   "lat": 49.25,
+   "lon": -123.1666667
+ },
+ {
+   "name": "Arbutus Ridge",
+   "lat": 48.6925,
+   "lon": -123.5397222
+ },
+ {
+   "name": "Argenta",
+   "lat": 50.16666667,
+   "lon": -116.9166667
+ },
+ {
+   "name": "Arnold",
+   "lat": 49.00833333,
+   "lon": -122.15
+ },
+ {
+   "name": "Arras",
+   "lat": 55.75,
+   "lon": -120.5333333
+ },
+ {
+   "name": "Arrow Creek",
+   "lat": 49.13333333,
+   "lon": -116.45
+ },
+ {
+   "name": "Arrowview Heights",
+   "lat": 49.23333333,
+   "lon": -124.7666667
+ },
+ {
+   "name": "Ashton Creek",
+   "lat": 50.55,
+   "lon": -119.0166667
+ },
+ {
+   "name": "Atchelitz",
+   "lat": 49.11666667,
+   "lon": -122.0166667
+ },
+ {
+   "name": "Athalmer",
+   "lat": 50.51583333,
+   "lon": -116.0280556
+ },
+ {
+   "name": "Atlin",
+   "lat": 59.56666667,
+   "lon": -133.7
+ },
+ {
+   "name": "Atluck",
+   "lat": 50.2,
+   "lon": -126.9833333
+ },
+ {
+   "name": "Austin Heights",
+   "lat": 49.25,
+   "lon": -122.8666667
+ },
+ {
+   "name": "Australian",
+   "lat": 52.73333333,
+   "lon": -122.45
+ },
+ {
+   "name": "Avola",
+   "lat": 51.78333333,
+   "lon": -119.3166667
+ },
+ {
+   "name": "Azu Ski Village",
+   "lat": 55.38333333,
+   "lon": -122.6333333
+ },
+ {
+   "name": "Baldonnel",
+   "lat": 56.2,
+   "lon": -120.6833333
+ },
+ {
+   "name": "Baldy Hughes",
+   "lat": 53.61666667,
+   "lon": -122.9333333
+ },
+ {
+   "name": "Balfour",
+   "lat": 49.62555556,
+   "lon": -116.9625
+ },
+ {
+   "name": "Balmoral",
+   "lat": 50.85,
+   "lon": -119.35
+ },
+ {
+   "name": "Balmoral Beach",
+   "lat": 49.66666667,
+   "lon": -124.9
+ },
+ {
+   "name": "Bamfield",
+   "lat": 48.83333333,
+   "lon": -125.1333333
+ },
+ {
+   "name": "Bankeir",
+   "lat": 49.71666667,
+   "lon": -120.2333333
+ },
+ {
+   "name": "Barkerville",
+   "lat": 53.06611111,
+   "lon": -121.5172222
+ },
+ {
+   "name": "Barlow Creek",
+   "lat": 53.03333333,
+   "lon": -122.4333333
+ },
+ {
+   "name": "Barnet",
+   "lat": 49.3,
+   "lon": -122.9166667
+ },
+ {
+   "name": "Barnhartvale",
+   "lat": 50.65,
+   "lon": -120.1666667
+ },
+ {
+   "name": "Barnston Island",
+   "lat": 49.2,
+   "lon": -122.7166667
+ },
+ {
+   "name": "Barrett Lake",
+   "lat": 54.45,
+   "lon": -126.75
+ },
+ {
+   "name": "Barrowtown",
+   "lat": 49.1,
+   "lon": -122.1
+ },
+ {
+   "name": "Batchelor Hills",
+   "lat": 50.71666667,
+   "lon": -120.3666667
+ },
+ {
+   "name": "Baynes Lake",
+   "lat": 49.23333333,
+   "lon": -115.2166667
+ },
+ {
+   "name": "Beach Grove",
+   "lat": 49.03055556,
+   "lon": -123.0591667
+ },
+ {
+   "name": "Beachcomber Bay",
+   "lat": 50.24444444,
+   "lon": -119.3777778
+ },
+ {
+   "name": "Bear Lake",
+   "lat": 56.2,
+   "lon": -126.85
+ },
+ {
+   "name": "Bear Lake",
+   "lat": 54.5,
+   "lon": -122.6666667
+ },
+ {
+   "name": "Beaver Cove",
+   "lat": 50.53333333,
+   "lon": -126.8666667
+ },
+ {
+   "name": "Beaver Creek",
+   "lat": 49.31666667,
+   "lon": -124.9
+ },
+ {
+   "name": "Beaver Falls",
+   "lat": 49.08333333,
+   "lon": -117.5833333
+ },
+ {
+   "name": "Beaver Lake",
+   "lat": 48.50833333,
+   "lon": -123.3916667
+ },
+ {
+   "name": "Beaver Point",
+   "lat": 48.76666667,
+   "lon": -123.3833333
+ },
+ {
+   "name": "Beaverdell",
+   "lat": 49.43333333,
+   "lon": -119.0833333
+ },
+ {
+   "name": "Beaverley",
+   "lat": 53.81666667,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Bella Coola",
+   "lat": 52.38333333,
+   "lon": -126.75
+ },
+ {
+   "name": "Belmont Park",
+   "lat": 48.43611111,
+   "lon": -123.4666667
+ },
+ {
+   "name": "Benvoulin",
+   "lat": 49.88333333,
+   "lon": -119.4333333
+ },
+ {
+   "name": "Bestwick",
+   "lat": 50.56666667,
+   "lon": -120.0833333
+ },
+ {
+   "name": "Big Bar Creek",
+   "lat": 51.18333333,
+   "lon": -122.1333333
+ },
+ {
+   "name": "Big Eddy",
+   "lat": 51,
+   "lon": -118.2166667
+ },
+ {
+   "name": "Birch Island",
+   "lat": 51.6,
+   "lon": -119.9166667
+ },
+ {
+   "name": "Birchland Manor",
+   "lat": 49.26666667,
+   "lon": -122.75
+ },
+ {
+   "name": "Black Creek",
+   "lat": 49.83333333,
+   "lon": -125.1333333
+ },
+ {
+   "name": "Black Pines",
+   "lat": 50.93333333,
+   "lon": -120.25
+ },
+ {
+   "name": "Blackpool",
+   "lat": 51.60972222,
+   "lon": -120.1088889
+ },
+ {
+   "name": "Blaeberry",
+   "lat": 51.43333333,
+   "lon": -117.0666667
+ },
+ {
+   "name": "Blewett",
+   "lat": 49.475,
+   "lon": -117.4083333
+ },
+ {
+   "name": "Blind Bay",
+   "lat": 50.88333333,
+   "lon": -119.3833333
+ },
+ {
+   "name": "Blind Channel",
+   "lat": 50.41305556,
+   "lon": -125.5025
+ },
+ {
+   "name": "Blubber Bay",
+   "lat": 49.78333333,
+   "lon": -124.6166667
+ },
+ {
+   "name": "Blucher Hall",
+   "lat": 51.1,
+   "lon": -120.0166667
+ },
+ {
+   "name": "Blue River",
+   "lat": 52.1,
+   "lon": -119.3
+ },
+ {
+   "name": "Blueberry Creek",
+   "lat": 49.25,
+   "lon": -117.6666667
+ },
+ {
+   "name": "Blueridge",
+   "lat": 49.32916667,
+   "lon": -122.9916667
+ },
+ {
+   "name": "Bonnet Hill",
+   "lat": 53.9,
+   "lon": -122.6166667
+ },
+ {
+   "name": "Bonnington Falls",
+   "lat": 49.46666667,
+   "lon": -117.4833333
+ },
+ {
+   "name": "Boothroyd",
+   "lat": 49.96527778,
+   "lon": -121.4833333
+ },
+ {
+   "name": "Boston Bar",
+   "lat": 49.86666667,
+   "lon": -121.4333333
+ },
+ {
+   "name": "Boswell",
+   "lat": 49.45,
+   "lon": -116.7666667
+ },
+ {
+   "name": "Bouchie Lake",
+   "lat": 53.01666667,
+   "lon": -122.6
+ },
+ {
+   "name": "Boundary Bay",
+   "lat": 49,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Bowser",
+   "lat": 49.43333333,
+   "lon": -124.6666667
+ },
+ {
+   "name": "Brackendale",
+   "lat": 49.76666667,
+   "lon": -123.15
+ },
+ {
+   "name": "Bradner",
+   "lat": 49.1,
+   "lon": -122.4166667
+ },
+ {
+   "name": "Braemar Heights",
+   "lat": 48.41666667,
+   "lon": -123.5
+ },
+ {
+   "name": "Braeside",
+   "lat": 54.08333333,
+   "lon": -124.25
+ },
+ {
+   "name": "Brandon",
+   "lat": 49.75,
+   "lon": -117.45
+ },
+ {
+   "name": "Brentwood Bay",
+   "lat": 48.58333333,
+   "lon": -123.45
+ },
+ {
+   "name": "Brentwood Park",
+   "lat": 49.275,
+   "lon": -122.9916667
+ },
+ {
+   "name": "Brew Bay",
+   "lat": 49.76666667,
+   "lon": -124.3833333
+ },
+ {
+   "name": "Bridal Falls",
+   "lat": 49.18333333,
+   "lon": -121.7333333
+ },
+ {
+   "name": "Bridesville",
+   "lat": 49.03333333,
+   "lon": -119.15
+ },
+ {
+   "name": "Bridge Lake",
+   "lat": 51.48333333,
+   "lon": -120.7166667
+ },
+ {
+   "name": "Bridgeview",
+   "lat": 49.21666667,
+   "lon": -122.8666667
+ },
+ {
+   "name": "Brigade Lake",
+   "lat": 50.5,
+   "lon": -120.3
+ },
+ {
+   "name": "Brighouse",
+   "lat": 49.16666667,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Brilliant",
+   "lat": 49.32361111,
+   "lon": -117.6441667
+ },
+ {
+   "name": "Brisco",
+   "lat": 50.83333333,
+   "lon": -116.2666667
+ },
+ {
+   "name": "Britannia Beach",
+   "lat": 49.62638889,
+   "lon": -123.2036111
+ },
+ {
+   "name": "British Properties",
+   "lat": 49.35,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Broadmoor",
+   "lat": 49.15,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Broadview",
+   "lat": 50.71666667,
+   "lon": -119.25
+ },
+ {
+   "name": "Brocklehurst",
+   "lat": 50.7,
+   "lon": -120.4166667
+ },
+ {
+   "name": "Brookswood",
+   "lat": 49.06666667,
+   "lon": -122.6666667
+ },
+ {
+   "name": "Brouse",
+   "lat": 50.21666667,
+   "lon": -117.75
+ },
+ {
+   "name": "Brunette Creek",
+   "lat": 49.23333333,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Buckhorn",
+   "lat": 53.8,
+   "lon": -122.65
+ },
+ {
+   "name": "Buckingham Heights",
+   "lat": 49.23333333,
+   "lon": -122.95
+ },
+ {
+   "name": "Buckinghorse River",
+   "lat": 57.38333333,
+   "lon": -122.85
+ },
+ {
+   "name": "Buckley Bay",
+   "lat": 49.53333333,
+   "lon": -124.8569444
+ },
+ {
+   "name": "Buffalo Creek",
+   "lat": 51.73333333,
+   "lon": -121.15
+ },
+ {
+   "name": "Buick",
+   "lat": 56.75972222,
+   "lon": -121.275
+ },
+ {
+   "name": "Burkeville",
+   "lat": 49.18333333,
+   "lon": -123.15
+ },
+ {
+   "name": "Burnaby Heights",
+   "lat": 49.28333333,
+   "lon": -123
+ },
+ {
+   "name": "Burquitlam",
+   "lat": 49.26666667,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Burton",
+   "lat": 49.99027778,
+   "lon": -117.8777778
+ },
+ {
+   "name": "Cadboro Bay",
+   "lat": 48.46666667,
+   "lon": -123.3
+ },
+ {
+   "name": "Caithness",
+   "lat": 49.31666667,
+   "lon": -115.1666667
+ },
+ {
+   "name": "Cameron Heights",
+   "lat": 49.21666667,
+   "lon": -124.8
+ },
+ {
+   "name": "Campbell Island",
+   "lat": 52.16944444,
+   "lon": -128.1416667
+ },
+ {
+   "name": "Campbellton",
+   "lat": 50.03333333,
+   "lon": -125.2666667
+ },
+ {
+   "name": "Canim Lake",
+   "lat": 51.76666667,
+   "lon": -120.9
+ },
+ {
+   "name": "Canoe",
+   "lat": 50.75,
+   "lon": -119.2333333
+ },
+ {
+   "name": "Canyon",
+   "lat": 49.08333333,
+   "lon": -116.45
+ },
+ {
+   "name": "Canyon Alpine",
+   "lat": 49.91666667,
+   "lon": -121.4444444
+ },
+ {
+   "name": "Canyon Heights",
+   "lat": 49.35333333,
+   "lon": -123.1027778
+ },
+ {
+   "name": "Capilano Highlands",
+   "lat": 49.35,
+   "lon": -123.1
+ },
+ {
+   "name": "Capitol Hill",
+   "lat": 49.28333333,
+   "lon": -122.9833333
+ },
+ {
+   "name": "Cariboo",
+   "lat": 49.25,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Carrs",
+   "lat": 50.115,
+   "lon": -119.4630556
+ },
+ {
+   "name": "Cascade Heights",
+   "lat": 49.25,
+   "lon": -123.0166667
+ },
+ {
+   "name": "Casino",
+   "lat": 49.05,
+   "lon": -117.6666667
+ },
+ {
+   "name": "Cassidy",
+   "lat": 49.05,
+   "lon": -123.8833333
+ },
+ {
+   "name": "Cassin",
+   "lat": 49.27638889,
+   "lon": -122.8166667
+ },
+ {
+   "name": "Castle Rock",
+   "lat": 52.53333333,
+   "lon": -122.4833333
+ },
+ {
+   "name": "Castledale",
+   "lat": 51.02083333,
+   "lon": -116.525
+ },
+ {
+   "name": "Caulfeild",
+   "lat": 49.35,
+   "lon": -123.25
+ },
+ {
+   "name": "Cawston",
+   "lat": 49.18333333,
+   "lon": -119.7666667
+ },
+ {
+   "name": "Caycuse",
+   "lat": 48.88333333,
+   "lon": -124.3666667
+ },
+ {
+   "name": "Cecil Lake",
+   "lat": 56.3,
+   "lon": -120.5833333
+ },
+ {
+   "name": "Cedar",
+   "lat": 49.11666667,
+   "lon": -123.85
+ },
+ {
+   "name": "Cedar Grove",
+   "lat": 50.13333333,
+   "lon": -119.45
+ },
+ {
+   "name": "Cedardale",
+   "lat": 49.33472222,
+   "lon": -123.1305556
+ },
+ {
+   "name": "Cedarside",
+   "lat": 52.78333333,
+   "lon": -119.25
+ },
+ {
+   "name": "Cedarvale",
+   "lat": 55.01944444,
+   "lon": -128.3291667
+ },
+ {
+   "name": "Celista",
+   "lat": 50.95,
+   "lon": -119.35
+ },
+ {
+   "name": "Chapman Camp",
+   "lat": 49.66666667,
+   "lon": -115.9666667
+ },
+ {
+   "name": "Charella Garden",
+   "lat": 53.88333333,
+   "lon": -122.7666667
+ },
+ {
+   "name": "Charlie Lake",
+   "lat": 56.28333333,
+   "lon": -120.95
+ },
+ {
+   "name": "Chase River",
+   "lat": 49.13333333,
+   "lon": -123.9166667
+ },
+ {
+   "name": "Cheakamus",
+   "lat": 49.83333333,
+   "lon": -123.15
+ },
+ {
+   "name": "Chemainus",
+   "lat": 48.91666667,
+   "lon": -123.7166667
+ },
+ {
+   "name": "Cherry Creek",
+   "lat": 49.28333333,
+   "lon": -124.7833333
+ },
+ {
+   "name": "Cherry Creek",
+   "lat": 50.7125,
+   "lon": -120.625
+ },
+ {
+   "name": "Cherryville",
+   "lat": 50.24166667,
+   "lon": -118.6166667
+ },
+ {
+   "name": "Chezacut",
+   "lat": 52.4,
+   "lon": -124.0333333
+ },
+ {
+   "name": "Chilanko Forks",
+   "lat": 52.11666667,
+   "lon": -124.0666667
+ },
+ {
+   "name": "Chilcotin Forest",
+   "lat": 52.11666667,
+   "lon": -122.5666667
+ },
+ {
+   "name": "Chilliwack",
+   "lat": 49.16666667,
+   "lon": -121.95
+ },
+ {
+   "name": "Chineside",
+   "lat": 49.26666667,
+   "lon": -122.8333333
+ },
+ {
+   "name": "Christina Lake",
+   "lat": 49.04305556,
+   "lon": -118.2083333
+ },
+ {
+   "name": "Cinnabar Valley",
+   "lat": 49.1,
+   "lon": -123.9166667
+ },
+ {
+   "name": "Clairmont",
+   "lat": 56.25,
+   "lon": -120.9
+ },
+ {
+   "name": "Clayburn",
+   "lat": 49.08333333,
+   "lon": -122.2666667
+ },
+ {
+   "name": "Clayhurst",
+   "lat": 56.1875,
+   "lon": -120.0555556
+ },
+ {
+   "name": "Clearbrook",
+   "lat": 49.05,
+   "lon": -122.3333333
+ },
+ {
+   "name": "Cleveland Park",
+   "lat": 49.36666667,
+   "lon": -123.1
+ },
+ {
+   "name": "Coal Harbour",
+   "lat": 50.6,
+   "lon": -127.5833333
+ },
+ {
+   "name": "Coalmont",
+   "lat": 49.51666667,
+   "lon": -120.7
+ },
+ {
+   "name": "Cobble Hill",
+   "lat": 48.68333333,
+   "lon": -123.6
+ },
+ {
+   "name": "College Heights",
+   "lat": 53.86666667,
+   "lon": -122.7666667
+ },
+ {
+   "name": "Collettville",
+   "lat": 50.1,
+   "lon": -120.8
+ },
+ {
+   "name": "Colquitz",
+   "lat": 48.48333333,
+   "lon": -123.4166667
+ },
+ {
+   "name": "Columbia Gardens",
+   "lat": 49.06666667,
+   "lon": -117.5833333
+ },
+ {
+   "name": "Commodore Heights",
+   "lat": 52.16666667,
+   "lon": -122.1333333
+ },
+ {
+   "name": "Connaught Heights",
+   "lat": 49.2,
+   "lon": -122.95
+ },
+ {
+   "name": "Coombe",
+   "lat": 49.32361111,
+   "lon": -122.9166667
+ },
+ {
+   "name": "Coombs",
+   "lat": 49.3,
+   "lon": -124.4166667
+ },
+ {
+   "name": "Cooper Creek",
+   "lat": 50.2,
+   "lon": -116.9666667
+ },
+ {
+   "name": "Cordova Bay",
+   "lat": 48.51666667,
+   "lon": -123.3666667
+ },
+ {
+   "name": "Cortes Bay",
+   "lat": 50.06666667,
+   "lon": -124.9333333
+ },
+ {
+   "name": "Cove Cliff",
+   "lat": 49.31666667,
+   "lon": -122.95
+ },
+ {
+   "name": "Cowichan Bay",
+   "lat": 48.73333333,
+   "lon": -123.6166667
+ },
+ {
+   "name": "Cowichan Station",
+   "lat": 48.73333333,
+   "lon": -123.6666667
+ },
+ {
+   "name": "Coyle",
+   "lat": 50.15,
+   "lon": -120.8833333
+ },
+ {
+   "name": "Craigellachie",
+   "lat": 50.96666667,
+   "lon": -118.7166667
+ },
+ {
+   "name": "Cranberry",
+   "lat": 49.88333333,
+   "lon": -124.5333333
+ },
+ {
+   "name": "Cranberry Junction",
+   "lat": 55.56666667,
+   "lon": -128.6
+ },
+ {
+   "name": "Crawford Bay",
+   "lat": 49.68333333,
+   "lon": -116.8166667
+ },
+ {
+   "name": "Creighton Valley",
+   "lat": 50.21666667,
+   "lon": -118.7833333
+ },
+ {
+   "name": "Crescent",
+   "lat": 49.05,
+   "lon": -122.85
+ },
+ {
+   "name": "Crescent Bay",
+   "lat": 49.61666667,
+   "lon": -117.15
+ },
+ {
+   "name": "Crescent Beach",
+   "lat": 49.61666667,
+   "lon": -119.65
+ },
+ {
+   "name": "Crescent Beach",
+   "lat": 49.05,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Crescent Valley",
+   "lat": 49.45,
+   "lon": -117.55
+ },
+ {
+   "name": "Crofton",
+   "lat": 48.86666667,
+   "lon": -123.65
+ },
+ {
+   "name": "Cultus Lake",
+   "lat": 49.06666667,
+   "lon": -121.9666667
+ },
+ {
+   "name": "Cypress Park",
+   "lat": 49.34277778,
+   "lon": -123.2397222
+ },
+ {
+   "name": "D'Arcy",
+   "lat": 50.55,
+   "lon": -122.4833333
+ },
+ {
+   "name": "Dallas",
+   "lat": 50.66666667,
+   "lon": -120.1666667
+ },
+ {
+   "name": "Darfield",
+   "lat": 51.3,
+   "lon": -120.1833333
+ },
+ {
+   "name": "Dartmoor",
+   "lat": 49.24166667,
+   "lon": -122.8208333
+ },
+ {
+   "name": "Dashwood",
+   "lat": 49.36666667,
+   "lon": -124.5166667
+ },
+ {
+   "name": "Davis Bay",
+   "lat": 49.44305556,
+   "lon": -123.725
+ },
+ {
+   "name": "Dease Lake",
+   "lat": 58.43333333,
+   "lon": -130.0241667
+ },
+ {
+   "name": "Decker Lake",
+   "lat": 54.3,
+   "lon": -125.8333333
+ },
+ {
+   "name": "Deep Bay",
+   "lat": 49.46666667,
+   "lon": -124.7166667
+ },
+ {
+   "name": "Deep Cove",
+   "lat": 49.33333333,
+   "lon": -122.95
+ },
+ {
+   "name": "Deep Cove",
+   "lat": 48.68333333,
+   "lon": -123.4666667
+ },
+ {
+   "name": "Delbrook",
+   "lat": 49.35,
+   "lon": -123.0833333
+ },
+ {
+   "name": "Delkatla",
+   "lat": 54.01666667,
+   "lon": -132.1333333
+ },
+ {
+   "name": "Denman Island",
+   "lat": 49.53333333,
+   "lon": -124.8166667
+ },
+ {
+   "name": "Dentville",
+   "lat": 49.71666667,
+   "lon": -123.15
+ },
+ {
+   "name": "Departure Bay",
+   "lat": 49.2,
+   "lon": -123.9666667
+ },
+ {
+   "name": "Deroche",
+   "lat": 49.18333333,
+   "lon": -122.0666667
+ },
+ {
+   "name": "Dewdney",
+   "lat": 49.16666667,
+   "lon": -122.2
+ },
+ {
+   "name": "Dodge Cove",
+   "lat": 54.28777778,
+   "lon": -130.3875
+ },
+ {
+   "name": "Dog Creek",
+   "lat": 51.58333333,
+   "lon": -122.2333333
+ },
+ {
+   "name": "Dog Creek",
+   "lat": 52.10277778,
+   "lon": -122.125
+ },
+ {
+   "name": "Dogwood Valley",
+   "lat": 49.48333333,
+   "lon": -121.4166667
+ },
+ {
+   "name": "Doig River",
+   "lat": 56.57222222,
+   "lon": -120.4916667
+ },
+ {
+   "name": "Dokie Siding",
+   "lat": 55.65,
+   "lon": -121.7333333
+ },
+ {
+   "name": "Dollarton",
+   "lat": 49.31666667,
+   "lon": -122.95
+ },
+ {
+   "name": "Dolphin Beach",
+   "lat": 49.3,
+   "lon": -124.15
+ },
+ {
+   "name": "Dome Creek",
+   "lat": 53.75,
+   "lon": -121.0333333
+ },
+ {
+   "name": "Donald",
+   "lat": 51.49583333,
+   "lon": -117.1736111
+ },
+ {
+   "name": "Donald Landing",
+   "lat": 54.48333333,
+   "lon": -125.65
+ },
+ {
+   "name": "Douglas",
+   "lat": 49.00277778,
+   "lon": -122.7355556
+ },
+ {
+   "name": "Douglas Lake",
+   "lat": 50.16666667,
+   "lon": -120.2
+ },
+ {
+   "name": "Driftwood Creek",
+   "lat": 54.81666667,
+   "lon": -127.0791667
+ },
+ {
+   "name": "Dry Gulch",
+   "lat": 50.57916667,
+   "lon": -116.0352778
+ },
+ {
+   "name": "Duck Range",
+   "lat": 50.61666667,
+   "lon": -119.8333333
+ },
+ {
+   "name": "Dufferin",
+   "lat": 50.66666667,
+   "lon": -120.3833333
+ },
+ {
+   "name": "Dunbar-Southlands",
+   "lat": 49.25,
+   "lon": -123.1833333
+ },
+ {
+   "name": "Dundarave",
+   "lat": 49.33666667,
+   "lon": -123.1852778
+ },
+ {
+   "name": "Dunkley",
+   "lat": 53.27611111,
+   "lon": -122.4672222
+ },
+ {
+   "name": "Dunster",
+   "lat": 53.12416667,
+   "lon": -119.8377778
+ },
+ {
+   "name": "Durieu",
+   "lat": 49.22055556,
+   "lon": -122.2419444
+ },
+ {
+   "name": "Eagle Bay",
+   "lat": 50.93277778,
+   "lon": -119.2136111
+ },
+ {
+   "name": "Eagle Creek",
+   "lat": 51.86416667,
+   "lon": -120.8661111
+ },
+ {
+   "name": "Eagle Harbour",
+   "lat": 49.35416667,
+   "lon": -123.2613889
+ },
+ {
+   "name": "Eagle Heights",
+   "lat": 48.76416667,
+   "lon": -123.7052778
+ },
+ {
+   "name": "Eagle Ridge",
+   "lat": 49.28777778,
+   "lon": -122.8216667
+ },
+ {
+   "name": "Eagle Run",
+   "lat": 49.75,
+   "lon": -123.1333333
+ },
+ {
+   "name": "East Kelowna",
+   "lat": 49.8625,
+   "lon": -119.425
+ },
+ {
+   "name": "East Osoyoos",
+   "lat": 49.01611111,
+   "lon": -119.4308333
+ },
+ {
+   "name": "East Sooke",
+   "lat": 48.36638889,
+   "lon": -123.6836111
+ },
+ {
+   "name": "East Trail",
+   "lat": 49.09888889,
+   "lon": -117.6975
+ },
+ {
+   "name": "East Wellington",
+   "lat": 49.17083333,
+   "lon": -124.0091667
+ },
+ {
+   "name": "Eastburn",
+   "lat": 49.22305556,
+   "lon": -122.9411111
+ },
+ {
+   "name": "Eastgate",
+   "lat": 49.13777778,
+   "lon": -120.6136111
+ },
+ {
+   "name": "Eddontenajon",
+   "lat": 57.81555556,
+   "lon": -129.9622222
+ },
+ {
+   "name": "Edgewater",
+   "lat": 50.69972222,
+   "lon": -116.1355556
+ },
+ {
+   "name": "Edgewood",
+   "lat": 49.78083333,
+   "lon": -118.1430556
+ },
+ {
+   "name": "Egmont",
+   "lat": 49.75,
+   "lon": -123.9322222
+ },
+ {
+   "name": "Elgin",
+   "lat": 49.06527778,
+   "lon": -122.8194444
+ },
+ {
+   "name": "Elko",
+   "lat": 49.3,
+   "lon": -115.1116667
+ },
+ {
+   "name": "Ellison",
+   "lat": 49.94027778,
+   "lon": -119.3638889
+ },
+ {
+   "name": "Elphinstone",
+   "lat": 49.39305556,
+   "lon": -123.5305556
+ },
+ {
+   "name": "Endako",
+   "lat": 54.08944444,
+   "lon": -125.0280556
+ },
+ {
+   "name": "Engen",
+   "lat": 54.02888889,
+   "lon": -124.2944444
+ },
+ {
+   "name": "Erickson",
+   "lat": 49.09027778,
+   "lon": -116.4666667
+ },
+ {
+   "name": "Errington",
+   "lat": 49.28888889,
+   "lon": -124.3694444
+ },
+ {
+   "name": "Esler",
+   "lat": 52.1,
+   "lon": -122.1833333
+ },
+ {
+   "name": "Essondale",
+   "lat": 49.22972222,
+   "lon": -122.8111111
+ },
+ {
+   "name": "Extension",
+   "lat": 49.09861111,
+   "lon": -123.9569444
+ },
+ {
+   "name": "Fairbridge",
+   "lat": 48.74166667,
+   "lon": -123.6986111
+ },
+ {
+   "name": "Fairfield",
+   "lat": 49.18611111,
+   "lon": -121.9416667
+ },
+ {
+   "name": "Fairfield",
+   "lat": 48.41666667,
+   "lon": -123.35
+ },
+ {
+   "name": "Fairview",
+   "lat": 49.26111111,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Fairview",
+   "lat": 49.175,
+   "lon": -119.6
+ },
+ {
+   "name": "Falkland",
+   "lat": 50.50138889,
+   "lon": -119.5583333
+ },
+ {
+   "name": "False Bay",
+   "lat": 49.49166667,
+   "lon": -124.3472222
+ },
+ {
+   "name": "Fanny Bay",
+   "lat": 49.49,
+   "lon": -124.8119444
+ },
+ {
+   "name": "Farmington",
+   "lat": 55.90416667,
+   "lon": -120.5055556
+ },
+ {
+   "name": "Fauquier",
+   "lat": 49.87083333,
+   "lon": -118.0708333
+ },
+ {
+   "name": "Fern Ridge",
+   "lat": 49.05,
+   "lon": -122.65
+ },
+ {
+   "name": "Ferndale",
+   "lat": 53.98611111,
+   "lon": -122.4944444
+ },
+ {
+   "name": "Fernwood",
+   "lat": 48.91388889,
+   "lon": -123.5333333
+ },
+ {
+   "name": "Field",
+   "lat": 51.39583333,
+   "lon": -116.4883333
+ },
+ {
+   "name": "Fife",
+   "lat": 49.06388889,
+   "lon": -118.2138889
+ },
+ {
+   "name": "Firvale",
+   "lat": 52.43333333,
+   "lon": -126.2833333
+ },
+ {
+   "name": "Flatrock",
+   "lat": 56.26666667,
+   "lon": -120.2833333
+ },
+ {
+   "name": "Floods",
+   "lat": 49.36527778,
+   "lon": -121.5111111
+ },
+ {
+   "name": "Foreman",
+   "lat": 53.95277778,
+   "lon": -122.6763889
+ },
+ {
+   "name": "Forest Grove",
+   "lat": 51.76666667,
+   "lon": -121.0930556
+ },
+ {
+   "name": "Forest Hills",
+   "lat": 49.35277778,
+   "lon": -123.0930556
+ },
+ {
+   "name": "Forest Knolls",
+   "lat": 49.14583333,
+   "lon": -122.5888889
+ },
+ {
+   "name": "Fort Babine",
+   "lat": 55.31805556,
+   "lon": -126.625
+ },
+ {
+   "name": "Fort Fraser",
+   "lat": 54.06666667,
+   "lon": -124.55
+ },
+ {
+   "name": "Fort Langley",
+   "lat": 49.16666667,
+   "lon": -122.5833333
+ },
+ {
+   "name": "Fort Nelson",
+   "lat": 58.80555556,
+   "lon": -122.6972222
+ },
+ {
+   "name": "Fort Rupert",
+   "lat": 50.69305556,
+   "lon": -127.4111111
+ },
+ {
+   "name": "Fort Ware",
+   "lat": 57.42083333,
+   "lon": -125.6222222
+ },
+ {
+   "name": "François Lake",
+   "lat": 54.05,
+   "lon": -125.75
+ },
+ {
+   "name": "Fraser Heights",
+   "lat": 49.2,
+   "lon": -122.7833333
+ },
+ {
+   "name": "Fraser Mills",
+   "lat": 49.23333333,
+   "lon": -122.85
+ },
+ {
+   "name": "French Creek",
+   "lat": 49.35,
+   "lon": -124.35
+ },
+ {
+   "name": "Fulford Harbour",
+   "lat": 48.76666667,
+   "lon": -123.45
+ },
+ {
+   "name": "Gabriola",
+   "lat": 49.17083333,
+   "lon": -123.8472222
+ },
+ {
+   "name": "Galloway",
+   "lat": 49.38333333,
+   "lon": -115.2166667
+ },
+ {
+   "name": "Gambier Harbour",
+   "lat": 49.44055556,
+   "lon": -123.4319444
+ },
+ {
+   "name": "Gang Ranch",
+   "lat": 51.55,
+   "lon": -122.3333333
+ },
+ {
+   "name": "Ganges",
+   "lat": 48.85,
+   "lon": -123.5
+ },
+ {
+   "name": "Garden Bay",
+   "lat": 49.63333333,
+   "lon": -124.0333333
+ },
+ {
+   "name": "Garden Village",
+   "lat": 49.23333333,
+   "lon": -123
+ },
+ {
+   "name": "Garibaldi Estates",
+   "lat": 49.73333333,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Garnet Valley",
+   "lat": 49.64166667,
+   "lon": -119.7083333
+ },
+ {
+   "name": "Gateway",
+   "lat": 51.66666667,
+   "lon": -121.2166667
+ },
+ {
+   "name": "Gellatly",
+   "lat": 49.81666667,
+   "lon": -119.6166667
+ },
+ {
+   "name": "Genelle",
+   "lat": 49.20833333,
+   "lon": -117.6958333
+ },
+ {
+   "name": "Germansen Landing",
+   "lat": 55.78333333,
+   "lon": -124.7
+ },
+ {
+   "name": "Gibson Creek",
+   "lat": 49.36666667,
+   "lon": -117.6666667
+ },
+ {
+   "name": "Gillies Bay",
+   "lat": 49.68333333,
+   "lon": -124.4833333
+ },
+ {
+   "name": "Gilpin",
+   "lat": 49.00972222,
+   "lon": -118.3166667
+ },
+ {
+   "name": "Gingolx",
+   "lat": 54.99444444,
+   "lon": -129.9541667
+ },
+ {
+   "name": "Gitwinksihlkw",
+   "lat": 55.19305556,
+   "lon": -129.2208333
+ },
+ {
+   "name": "Glade",
+   "lat": 49.4,
+   "lon": -117.55
+ },
+ {
+   "name": "Glen Valley",
+   "lat": 49.16666667,
+   "lon": -122.4666667
+ },
+ {
+   "name": "Glen Vowell",
+   "lat": 55.31222222,
+   "lon": -127.6733333
+ },
+ {
+   "name": "Glenbank",
+   "lat": 50.25,
+   "lon": -117.8
+ },
+ {
+   "name": "Glenbrooke North",
+   "lat": 49.21666667,
+   "lon": -122.9166667
+ },
+ {
+   "name": "Glendale",
+   "lat": 52.15,
+   "lon": -122.1666667
+ },
+ {
+   "name": "Gleneagles",
+   "lat": 49.36666667,
+   "lon": -123.2833333
+ },
+ {
+   "name": "Gleneden",
+   "lat": 50.73333333,
+   "lon": -119.35
+ },
+ {
+   "name": "Glenmerry",
+   "lat": 49.1,
+   "lon": -117.6666667
+ },
+ {
+   "name": "Glenmore",
+   "lat": 49.3625,
+   "lon": -123.1222222
+ },
+ {
+   "name": "Glenrosa",
+   "lat": 49.85,
+   "lon": -119.6666667
+ },
+ {
+   "name": "Gold Bridge",
+   "lat": 50.85,
+   "lon": -122.8333333
+ },
+ {
+   "name": "Goldstream",
+   "lat": 48.4575,
+   "lon": -123.5513889
+ },
+ {
+   "name": "Goodlow",
+   "lat": 56.33333333,
+   "lon": -120.1333333
+ },
+ {
+   "name": "Gordon Head",
+   "lat": 48.48333333,
+   "lon": -123.3166667
+ },
+ {
+   "name": "Grand Haven",
+   "lat": 56.23333333,
+   "lon": -120.9
+ },
+ {
+   "name": "Grand Rapids",
+   "lat": 54.78333333,
+   "lon": -124.8833333
+ },
+ {
+   "name": "Grandview",
+   "lat": 49.05,
+   "lon": -122.7333333
+ },
+ {
+   "name": "Grandview Bench",
+   "lat": 50.65,
+   "lon": -119.15
+ },
+ {
+   "name": "Grandview-Woodlands",
+   "lat": 49.28333333,
+   "lon": -123.0666667
+ },
+ {
+   "name": "Granite",
+   "lat": 49.48333333,
+   "lon": -117.3666667
+ },
+ {
+   "name": "Grantham",
+   "lat": 49.76666667,
+   "lon": -125.0166667
+ },
+ {
+   "name": "Granthams Landing",
+   "lat": 49.41666667,
+   "lon": -123.5
+ },
+ {
+   "name": "Gray Creek",
+   "lat": 49.63333333,
+   "lon": -116.7833333
+ },
+ {
+   "name": "Greendale",
+   "lat": 49.11666667,
+   "lon": -122.05
+ },
+ {
+   "name": "Grindrod",
+   "lat": 50.63333333,
+   "lon": -119.1166667
+ },
+ {
+   "name": "Groundbirch",
+   "lat": 55.78333333,
+   "lon": -120.9166667
+ },
+ {
+   "name": "Hagensborg",
+   "lat": 52.38333333,
+   "lon": -126.55
+ },
+ {
+   "name": "Hagwilget",
+   "lat": 55.2575,
+   "lon": -127.5977778
+ },
+ {
+   "name": "Haig",
+   "lat": 49.4,
+   "lon": -121.45
+ },
+ {
+   "name": "Halfmoon Bay",
+   "lat": 49.51666667,
+   "lon": -123.9166667
+ },
+ {
+   "name": "Haney",
+   "lat": 49.21666667,
+   "lon": -122.6
+ },
+ {
+   "name": "Happy Valley",
+   "lat": 48.41666667,
+   "lon": -123.5333333
+ },
+ {
+   "name": "Harbour Chines",
+   "lat": 49.26666667,
+   "lon": -122.85
+ },
+ {
+   "name": "Harbour Village",
+   "lat": 49.26666667,
+   "lon": -122.8166667
+ },
+ {
+   "name": "Harrison Mills",
+   "lat": 49.25,
+   "lon": -121.95
+ },
+ {
+   "name": "Harrogate",
+   "lat": 50.98333333,
+   "lon": -116.45
+ },
+ {
+   "name": "Harrop",
+   "lat": 49.6,
+   "lon": -117.0666667
+ },
+ {
+   "name": "Hart Highlands",
+   "lat": 53.98333333,
+   "lon": -122.8
+ },
+ {
+   "name": "Hartley Bay",
+   "lat": 53.42527778,
+   "lon": -129.2538889
+ },
+ {
+   "name": "Hasler Flat",
+   "lat": 55.6,
+   "lon": -121.9666667
+ },
+ {
+   "name": "Hastings-Sunrise",
+   "lat": 49.28333333,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Hatzic",
+   "lat": 49.15,
+   "lon": -122.25
+ },
+ {
+   "name": "Hazelmere",
+   "lat": 49.03333333,
+   "lon": -122.7166667
+ },
+ {
+   "name": "Hedley",
+   "lat": 49.35777778,
+   "lon": -120.0758333
+ },
+ {
+   "name": "Heffley Creek",
+   "lat": 50.85722222,
+   "lon": -120.2747222
+ },
+ {
+   "name": "Heriot Bay",
+   "lat": 50.1,
+   "lon": -125.2166667
+ },
+ {
+   "name": "Hilliers",
+   "lat": 49.3,
+   "lon": -124.4833333
+ },
+ {
+   "name": "Hills",
+   "lat": 50.10222222,
+   "lon": -117.485
+ },
+ {
+   "name": "Hixon",
+   "lat": 53.41666667,
+   "lon": -122.5833333
+ },
+ {
+   "name": "Holberg",
+   "lat": 50.65666667,
+   "lon": -128.0113889
+ },
+ {
+   "name": "Hollyburn",
+   "lat": 49.33333333,
+   "lon": -123.15
+ },
+ {
+   "name": "Honeymoon Bay",
+   "lat": 48.81666667,
+   "lon": -124.1666667
+ },
+ {
+   "name": "Hopetown",
+   "lat": 50.92361111,
+   "lon": -126.8194444
+ },
+ {
+   "name": "Hopkins Landing",
+   "lat": 49.43333333,
+   "lon": -123.4833333
+ },
+ {
+   "name": "Hornby Island",
+   "lat": 49.53305556,
+   "lon": -124.6672222
+ },
+ {
+   "name": "Horsefly",
+   "lat": 52.33333333,
+   "lon": -121.4166667
+ },
+ {
+   "name": "Horseshoe Bay",
+   "lat": 49.36666667,
+   "lon": -123.2666667
+ },
+ {
+   "name": "Hosmer",
+   "lat": 49.58333333,
+   "lon": -114.95
+ },
+ {
+   "name": "Hospital Hill",
+   "lat": 49.7,
+   "lon": -123.15
+ },
+ {
+   "name": "Huntingdon",
+   "lat": 49,
+   "lon": -122.2666667
+ },
+ {
+   "name": "Hupel",
+   "lat": 50.61666667,
+   "lon": -118.7666667
+ },
+ {
+   "name": "Huscroft",
+   "lat": 49.01666667,
+   "lon": -116.4666667
+ },
+ {
+   "name": "Hyde Creek",
+   "lat": 50.58333333,
+   "lon": -127
+ },
+ {
+   "name": "Inkaneep",
+   "lat": 49.11666667,
+   "lon": -119.5
+ },
+ {
+   "name": "Ioco",
+   "lat": 49.3,
+   "lon": -122.8666667
+ },
+ {
+   "name": "Iskut",
+   "lat": 57.8375,
+   "lon": -129.9875
+ },
+ {
+   "name": "Island Cache",
+   "lat": 53.91666667,
+   "lon": -122.7333333
+ },
+ {
+   "name": "Jaffray",
+   "lat": 49.38333333,
+   "lon": -115.3
+ },
+ {
+   "name": "James Bay",
+   "lat": 48.41666667,
+   "lon": -123.3833333
+ },
+ {
+   "name": "Jeune Landing",
+   "lat": 50.43333333,
+   "lon": -127.4833333
+ },
+ {
+   "name": "Johnson Heights",
+   "lat": 49.18333333,
+   "lon": -122.8
+ },
+ {
+   "name": "Johnsons Landing",
+   "lat": 50.08333333,
+   "lon": -116.8833333
+ },
+ {
+   "name": "Juniper Ridge",
+   "lat": 50.66666667,
+   "lon": -120.25
+ },
+ {
+   "name": "Juskatla",
+   "lat": 53.61611111,
+   "lon": -132.3108333
+ },
+ {
+   "name": "Kahntah",
+   "lat": 58.35,
+   "lon": -120.9
+ },
+ {
+   "name": "Kaleden",
+   "lat": 49.4,
+   "lon": -119.6
+ },
+ {
+   "name": "Keating",
+   "lat": 48.56666667,
+   "lon": -123.4
+ },
+ {
+   "name": "Keith-Lynn",
+   "lat": 49.31666667,
+   "lon": -123.0666667
+ },
+ {
+   "name": "Kelly Lake",
+   "lat": 55.25,
+   "lon": -120.0333333
+ },
+ {
+   "name": "Kelvin",
+   "lat": 49.21666667,
+   "lon": -122.9333333
+ },
+ {
+   "name": "Kemano",
+   "lat": 53.56666667,
+   "lon": -127.95
+ },
+ {
+   "name": "Kensington-Cedar Cottage",
+   "lat": 49.25,
+   "lon": -123.0666667
+ },
+ {
+   "name": "Kerrisdale",
+   "lat": 49.21666667,
+   "lon": -123.15
+ },
+ {
+   "name": "Kersley",
+   "lat": 52.81666667,
+   "lon": -122.4166667
+ },
+ {
+   "name": "Kettle Valley",
+   "lat": 49.05,
+   "lon": -118.9333333
+ },
+ {
+   "name": "Kilgard",
+   "lat": 49.06666667,
+   "lon": -122.2
+ },
+ {
+   "name": "Killarney",
+   "lat": 49.21666667,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Killiney Beach",
+   "lat": 50.18333333,
+   "lon": -119.5
+ },
+ {
+   "name": "Kingfisher",
+   "lat": 50.60555556,
+   "lon": -118.7361111
+ },
+ {
+   "name": "Kispiox",
+   "lat": 55.35111111,
+   "lon": -127.6936111
+ },
+ {
+   "name": "Kitamaat Village",
+   "lat": 53.975,
+   "lon": -128.65
+ },
+ {
+   "name": "Kitchener",
+   "lat": 49.15833333,
+   "lon": -116.3361111
+ },
+ {
+   "name": "Kitkatla",
+   "lat": 53.79555556,
+   "lon": -130.4313889
+ },
+ {
+   "name": "Kitsault",
+   "lat": 55.46666667,
+   "lon": -129.4833333
+ },
+ {
+   "name": "Kitseguecla",
+   "lat": 55.08333333,
+   "lon": -127.8333333
+ },
+ {
+   "name": "Kitsilano",
+   "lat": 49.26666667,
+   "lon": -123.1666667
+ },
+ {
+   "name": "Kitsumkalum",
+   "lat": 54.51666667,
+   "lon": -128.6333333
+ },
+ {
+   "name": "Kitwanga",
+   "lat": 55.1,
+   "lon": -128.0666667
+ },
+ {
+   "name": "Kleecoot",
+   "lat": 49.3,
+   "lon": -124.95
+ },
+ {
+   "name": "Kleena Kleene",
+   "lat": 51.95,
+   "lon": -124.8333333
+ },
+ {
+   "name": "Klemtu",
+   "lat": 52.58333333,
+   "lon": -128.5166667
+ },
+ {
+   "name": "Knutsford",
+   "lat": 50.61666667,
+   "lon": -120.3333333
+ },
+ {
+   "name": "Kokish",
+   "lat": 50.53333333,
+   "lon": -126.85
+ },
+ {
+   "name": "Koksilah",
+   "lat": 48.76666667,
+   "lon": -123.6833333
+ },
+ {
+   "name": "Kootenay Bay",
+   "lat": 49.68333333,
+   "lon": -116.8666667
+ },
+ {
+   "name": "Krestova",
+   "lat": 49.44055556,
+   "lon": -117.5916667
+ },
+ {
+   "name": "Kuldo",
+   "lat": 55.86666667,
+   "lon": -127.9
+ },
+ {
+   "name": "Kuskonook",
+   "lat": 49.30027778,
+   "lon": -116.6613889
+ },
+ {
+   "name": "Kyuquot",
+   "lat": 50.03333333,
+   "lon": -127.3666667
+ },
+ {
+   "name": "Lac la Hache",
+   "lat": 51.81666667,
+   "lon": -121.4666667
+ },
+ {
+   "name": "Ladner",
+   "lat": 49.09166667,
+   "lon": -123.0777778
+ },
+ {
+   "name": "Laidlaw",
+   "lat": 49.31666667,
+   "lon": -121.6
+ },
+ {
+   "name": "Lake Errock",
+   "lat": 49.21666667,
+   "lon": -122.0166667
+ },
+ {
+   "name": "Lake Hill",
+   "lat": 48.46666667,
+   "lon": -123.3666667
+ },
+ {
+   "name": "Lakelse Lake",
+   "lat": 54.36666667,
+   "lon": -128.55
+ },
+ {
+   "name": "Lakeview Heights",
+   "lat": 49.86666667,
+   "lon": -119.5333333
+ },
+ {
+   "name": "Lamming Mills",
+   "lat": 53.35,
+   "lon": -120.2666667
+ },
+ {
+   "name": "Lang Bay",
+   "lat": 49.78333333,
+   "lon": -124.35
+ },
+ {
+   "name": "Langdale",
+   "lat": 49.43333333,
+   "lon": -123.4666667
+ },
+ {
+   "name": "Lardeau",
+   "lat": 50.15,
+   "lon": -116.95
+ },
+ {
+   "name": "Laurentian Belaire",
+   "lat": 49.25,
+   "lon": -122.8333333
+ },
+ {
+   "name": "Lavington",
+   "lat": 50.23333333,
+   "lon": -119.1
+ },
+ {
+   "name": "Lax Kw'alaams",
+   "lat": 54.55666667,
+   "lon": -130.4336111
+ },
+ {
+   "name": "Laxgalts'ap",
+   "lat": 55.03055556,
+   "lon": -129.575
+ },
+ {
+   "name": "Lazo",
+   "lat": 49.71666667,
+   "lon": -124.9
+ },
+ {
+   "name": "Lebahdo",
+   "lat": 49.6,
+   "lon": -117.5833333
+ },
+ {
+   "name": "Lee Creek",
+   "lat": 50.9,
+   "lon": -119.5333333
+ },
+ {
+   "name": "Lemon Creek",
+   "lat": 49.7,
+   "lon": -117.4833333
+ },
+ {
+   "name": "Leo Creek",
+   "lat": 55.08333333,
+   "lon": -125.5666667
+ },
+ {
+   "name": "Lighthouse Point",
+   "lat": 48.86666667,
+   "lon": -123.2833333
+ },
+ {
+   "name": "Likely",
+   "lat": 52.61666667,
+   "lon": -121.55
+ },
+ {
+   "name": "Lincoln Park",
+   "lat": 49.28333333,
+   "lon": -122.75
+ },
+ {
+   "name": "Lindell Beach",
+   "lat": 49.03333333,
+   "lon": -122.0166667
+ },
+ {
+   "name": "Lister",
+   "lat": 49.04305556,
+   "lon": -116.4638889
+ },
+ {
+   "name": "Little Fort",
+   "lat": 51.41666667,
+   "lon": -120.2
+ },
+ {
+   "name": "Little River",
+   "lat": 49.73333333,
+   "lon": -124.9166667
+ },
+ {
+   "name": "Lone Butte",
+   "lat": 51.55416667,
+   "lon": -121.2069444
+ },
+ {
+   "name": "Lone Prairie",
+   "lat": 55.56666667,
+   "lon": -121.3833333
+ },
+ {
+   "name": "Longbeach",
+   "lat": 49.6125,
+   "lon": -117.0819444
+ },
+ {
+   "name": "Louis Creek",
+   "lat": 51.13333333,
+   "lon": -120.1166667
+ },
+ {
+   "name": "Lower China Creek",
+   "lat": 49.21666667,
+   "lon": -117.6805556
+ },
+ {
+   "name": "Lower Lonsdale",
+   "lat": 49.31666667,
+   "lon": -123.0666667
+ },
+ {
+   "name": "Lower Nicola",
+   "lat": 50.15,
+   "lon": -120.8833333
+ },
+ {
+   "name": "Lower Post",
+   "lat": 59.93333333,
+   "lon": -128.5
+ },
+ {
+   "name": "Lund",
+   "lat": 49.98138889,
+   "lon": -124.7613889
+ },
+ {
+   "name": "Lust Subdivision",
+   "lat": 52.95,
+   "lon": -122.4333333
+ },
+ {
+   "name": "Luxton",
+   "lat": 48.425,
+   "lon": -123.5333333
+ },
+ {
+   "name": "Lynn Valley",
+   "lat": 49.33333333,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Lynnmour",
+   "lat": 49.31666667,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Lynx Creek",
+   "lat": 56.06833333,
+   "lon": -121.8366667
+ },
+ {
+   "name": "Madeira Park",
+   "lat": 49.61666667,
+   "lon": -124.0166667
+ },
+ {
+   "name": "Magna Bay",
+   "lat": 50.96666667,
+   "lon": -119.2833333
+ },
+ {
+   "name": "Mahatta River",
+   "lat": 50.46666667,
+   "lon": -127.8
+ },
+ {
+   "name": "Maillardville",
+   "lat": 49.23333333,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Malahat",
+   "lat": 48.54805556,
+   "lon": -123.5652778
+ },
+ {
+   "name": "Malakwa",
+   "lat": 50.93333333,
+   "lon": -118.8
+ },
+ {
+   "name": "Manning Park",
+   "lat": 49.06666667,
+   "lon": -120.7833333
+ },
+ {
+   "name": "Mansons Landing",
+   "lat": 50.06222222,
+   "lon": -124.9788889
+ },
+ {
+   "name": "Maple Bay",
+   "lat": 48.81666667,
+   "lon": -123.6166667
+ },
+ {
+   "name": "Maplewood",
+   "lat": 49.3,
+   "lon": -123
+ },
+ {
+   "name": "Mara",
+   "lat": 50.68333333,
+   "lon": -119.0666667
+ },
+ {
+   "name": "Marguerite",
+   "lat": 52.5,
+   "lon": -122.4333333
+ },
+ {
+   "name": "Marigold",
+   "lat": 48.46666667,
+   "lon": -123.4
+ },
+ {
+   "name": "Marktosis",
+   "lat": 49.28333333,
+   "lon": -126.05
+ },
+ {
+   "name": "Marpole",
+   "lat": 49.2,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Martin Prairie",
+   "lat": 50.66666667,
+   "lon": -119.8166667
+ },
+ {
+   "name": "Mary Hill",
+   "lat": 49.23333333,
+   "lon": -122.7833333
+ },
+ {
+   "name": "Marysville",
+   "lat": 49.6375,
+   "lon": -115.9569444
+ },
+ {
+   "name": "Mason Creek",
+   "lat": 57.33333333,
+   "lon": -122.7833333
+ },
+ {
+   "name": "Masset",
+   "lat": 54.01666667,
+   "lon": -132.15
+ },
+ {
+   "name": "Mayfair",
+   "lat": 49.23333333,
+   "lon": -122.8208333
+ },
+ {
+   "name": "Mayne Island",
+   "lat": 48.85111111,
+   "lon": -123.2997222
+ },
+ {
+   "name": "Mayook",
+   "lat": 49.48333333,
+   "lon": -115.5666667
+ },
+ {
+   "name": "McGregor",
+   "lat": 54.08333333,
+   "lon": -121.8333333
+ },
+ {
+   "name": "McKinley Landing",
+   "lat": 49.96666667,
+   "lon": -119.45
+ },
+ {
+   "name": "McLeese Lake",
+   "lat": 52.42,
+   "lon": -122.2952778
+ },
+ {
+   "name": "McLeod Lake",
+   "lat": 54.98333333,
+   "lon": -123.0333333
+ },
+ {
+   "name": "McLure",
+   "lat": 51.05,
+   "lon": -120.2333333
+ },
+ {
+   "name": "Meadow Creek",
+   "lat": 50.23333333,
+   "lon": -116.9833333
+ },
+ {
+   "name": "Meadowbrook",
+   "lat": 49.26666667,
+   "lon": -122.7833333
+ },
+ {
+   "name": "Merville",
+   "lat": 49.78333333,
+   "lon": -125.05
+ },
+ {
+   "name": "Mesachie Lake",
+   "lat": 48.81666667,
+   "lon": -124.1166667
+ },
+ {
+   "name": "Metlakatla",
+   "lat": 54.33694444,
+   "lon": -130.4461111
+ },
+ {
+   "name": "Metrotown",
+   "lat": 49.225,
+   "lon": -123
+ },
+ {
+   "name": "Mica Creek",
+   "lat": 52.00777778,
+   "lon": -118.5661111
+ },
+ {
+   "name": "Middle River",
+   "lat": 54.86666667,
+   "lon": -125.1166667
+ },
+ {
+   "name": "Middlegate",
+   "lat": 49.21666667,
+   "lon": -122.95
+ },
+ {
+   "name": "Mill Bay",
+   "lat": 48.65,
+   "lon": -123.55
+ },
+ {
+   "name": "Milner",
+   "lat": 49.13333333,
+   "lon": -122.6166667
+ },
+ {
+   "name": "Milnes Landing",
+   "lat": 48.38333333,
+   "lon": -123.7
+ },
+ {
+   "name": "Minstrel Island",
+   "lat": 50.61666667,
+   "lon": -126.3
+ },
+ {
+   "name": "Miracle Valley",
+   "lat": 49.25,
+   "lon": -122.25
+ },
+ {
+   "name": "Mirror Lake",
+   "lat": 49.88333333,
+   "lon": -116.9
+ },
+ {
+   "name": "Mission",
+   "lat": 49.14027778,
+   "lon": -122.3166667
+ },
+ {
+   "name": "Miworth",
+   "lat": 53.95,
+   "lon": -122.9333333
+ },
+ {
+   "name": "Moberly Lake",
+   "lat": 55.83333333,
+   "lon": -121.7333333
+ },
+ {
+   "name": "Monte Creek",
+   "lat": 50.65,
+   "lon": -119.95
+ },
+ {
+   "name": "Monte Lake",
+   "lat": 50.53333333,
+   "lon": -119.8333333
+ },
+ {
+   "name": "Moose Heights",
+   "lat": 53.08333333,
+   "lon": -122.5
+ },
+ {
+   "name": "Mount Currie",
+   "lat": 50.31666667,
+   "lon": -122.7166667
+ },
+ {
+   "name": "Mount Lehman",
+   "lat": 49.11666667,
+   "lon": -122.3833333
+ },
+ {
+   "name": "Mount Pleasant",
+   "lat": 49.26666667,
+   "lon": -123.1
+ },
+ {
+   "name": "Mountain Station",
+   "lat": 49.48333333,
+   "lon": -117.2833333
+ },
+ {
+   "name": "Moyie",
+   "lat": 49.28833333,
+   "lon": -115.8322222
+ },
+ {
+   "name": "Murrayville",
+   "lat": 49.08333333,
+   "lon": -122.6166667
+ },
+ {
+   "name": "Myrtle Point",
+   "lat": 49.8,
+   "lon": -124.4833333
+ },
+ {
+   "name": "Nanoose Bay",
+   "lat": 49.26666667,
+   "lon": -124.2
+ },
+ {
+   "name": "Naramata",
+   "lat": 49.6,
+   "lon": -119.5833333
+ },
+ {
+   "name": "Nass Camp",
+   "lat": 55.28333333,
+   "lon": -128.9833333
+ },
+ {
+   "name": "Nazko",
+   "lat": 53,
+   "lon": -123.6166667
+ },
+ {
+   "name": "New Aiyansh",
+   "lat": 55.20416667,
+   "lon": -129.0791667
+ },
+ {
+   "name": "New Brighton",
+   "lat": 49.45055556,
+   "lon": -123.4377778
+ },
+ {
+   "name": "New Settlement",
+   "lat": 49.41666667,
+   "lon": -117.6166667
+ },
+ {
+   "name": "Nicholson",
+   "lat": 51.25,
+   "lon": -116.9
+ },
+ {
+   "name": "Nicola",
+   "lat": 50.16666667,
+   "lon": -120.6666667
+ },
+ {
+   "name": "Nimpkish",
+   "lat": 50.33333333,
+   "lon": -126.9166667
+ },
+ {
+   "name": "Nimpo Lake",
+   "lat": 52.33333333,
+   "lon": -125.15
+ },
+ {
+   "name": "Norgate",
+   "lat": 49.31666667,
+   "lon": -123.1166667
+ },
+ {
+   "name": "North Bend",
+   "lat": 49.88333333,
+   "lon": -121.45
+ },
+ {
+   "name": "North Bulkley",
+   "lat": 54.48333333,
+   "lon": -126.4833333
+ },
+ {
+   "name": "North Campbell River",
+   "lat": 50.05,
+   "lon": -125.2666667
+ },
+ {
+   "name": "North Delta",
+   "lat": 49.16666667,
+   "lon": -122.9166667
+ },
+ {
+   "name": "North Galiano",
+   "lat": 49,
+   "lon": -123.5833333
+ },
+ {
+   "name": "North Kamloops",
+   "lat": 50.7,
+   "lon": -120.3666667
+ },
+ {
+   "name": "North Lonsdale",
+   "lat": 49.33333333,
+   "lon": -123.0666667
+ },
+ {
+   "name": "North Nechako",
+   "lat": 53.93333333,
+   "lon": -122.7666667
+ },
+ {
+   "name": "North Poplar",
+   "lat": 49.03333333,
+   "lon": -122.3333333
+ },
+ {
+   "name": "Northfield",
+   "lat": 49.19027778,
+   "lon": -123.9788889
+ },
+ {
+   "name": "Northridge",
+   "lat": 49.7,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Notch Hill",
+   "lat": 50.85,
+   "lon": -119.4333333
+ },
+ {
+   "name": "Nuchatlitz",
+   "lat": 49.8,
+   "lon": -126.9666667
+ },
+ {
+   "name": "Nukko Lake",
+   "lat": 54.08333333,
+   "lon": -122.9833333
+ },
+ {
+   "name": "Nursery",
+   "lat": 49.01666667,
+   "lon": -118.4
+ },
+ {
+   "name": "Oak Hills",
+   "lat": 50.75,
+   "lon": -120.35
+ },
+ {
+   "name": "Oakridge",
+   "lat": 49.23333333,
+   "lon": -123.1166667
+ },
+ {
+   "name": "Oasis",
+   "lat": 49.13333333,
+   "lon": -117.75
+ },
+ {
+   "name": "Ocean Falls",
+   "lat": 52.35,
+   "lon": -127.7
+ },
+ {
+   "name": "Ocean Grove",
+   "lat": 49.95,
+   "lon": -125.2
+ },
+ {
+   "name": "Ocean Park",
+   "lat": 49.03333333,
+   "lon": -122.8666667
+ },
+ {
+   "name": "Okanagan Centre",
+   "lat": 50.05,
+   "lon": -119.45
+ },
+ {
+   "name": "Okanagan Falls",
+   "lat": 49.35,
+   "lon": -119.5666667
+ },
+ {
+   "name": "Okanagan Landing",
+   "lat": 50.23333333,
+   "lon": -119.35
+ },
+ {
+   "name": "Okanagan Mission",
+   "lat": 49.81666667,
+   "lon": -119.4833333
+ },
+ {
+   "name": "Olalla",
+   "lat": 49.26666667,
+   "lon": -119.8333333
+ },
+ {
+   "name": "Old Bella Bella",
+   "lat": 52.15472222,
+   "lon": -128.1202778
+ },
+ {
+   "name": "Old Fort",
+   "lat": 56.2,
+   "lon": -120.8166667
+ },
+ {
+   "name": "Old Fort Nelson",
+   "lat": 58.82388889,
+   "lon": -122.5425
+ },
+ {
+   "name": "Old Massett",
+   "lat": 54.03888889,
+   "lon": -132.1875
+ },
+ {
+   "name": "Oliver's Landing",
+   "lat": 49.58333333,
+   "lon": -123.2208333
+ },
+ {
+   "name": "Ootischenia",
+   "lat": 49.28722222,
+   "lon": -117.6227778
+ },
+ {
+   "name": "Opitsat",
+   "lat": 49.17361111,
+   "lon": -125.9105556
+ },
+ {
+   "name": "Osborn",
+   "lat": 56.60416667,
+   "lon": -120.3777778
+ },
+ {
+   "name": "Osprey Lake",
+   "lat": 49.71666667,
+   "lon": -120.1777778
+ },
+ {
+   "name": "Otway",
+   "lat": 53.96388889,
+   "lon": -122.8416667
+ },
+ {
+   "name": "Oxford Heights",
+   "lat": 49.28333333,
+   "lon": -122.7666667
+ },
+ {
+   "name": "Oyama",
+   "lat": 50.11666667,
+   "lon": -119.3666667
+ },
+ {
+   "name": "Oyster River",
+   "lat": 49.86666667,
+   "lon": -125.1333333
+ },
+ {
+   "name": "Paldi",
+   "lat": 48.78333333,
+   "lon": -123.85
+ },
+ {
+   "name": "Palling",
+   "lat": 54.35,
+   "lon": -125.8833333
+ },
+ {
+   "name": "Panorama Ridge",
+   "lat": 49.1,
+   "lon": -122.85
+ },
+ {
+   "name": "Park Royal",
+   "lat": 49.33333333,
+   "lon": -123.15
+ },
+ {
+   "name": "Park Siding",
+   "lat": 49.16666667,
+   "lon": -117.5
+ },
+ {
+   "name": "Parkdale Gardens",
+   "lat": 49.1,
+   "lon": -123.05
+ },
+ {
+   "name": "Passmore",
+   "lat": 49.53333333,
+   "lon": -117.65
+ },
+ {
+   "name": "Paterson",
+   "lat": 49,
+   "lon": -117.8333333
+ },
+ {
+   "name": "Pavilion",
+   "lat": 50.88333333,
+   "lon": -121.8333333
+ },
+ {
+   "name": "Pemberton Heights",
+   "lat": 49.33055556,
+   "lon": -123.1083333
+ },
+ {
+   "name": "Pender Island",
+   "lat": 48.78055556,
+   "lon": -123.2805556
+ },
+ {
+   "name": "Perow",
+   "lat": 54.51777778,
+   "lon": -126.4433333
+ },
+ {
+   "name": "Perrys",
+   "lat": 49.65833333,
+   "lon": -117.5111111
+ },
+ {
+   "name": "Phillips Arm",
+   "lat": 50.55,
+   "lon": -125.35
+ },
+ {
+   "name": "Pinantan Lake",
+   "lat": 50.71666667,
+   "lon": -120.0333333
+ },
+ {
+   "name": "Pine Valley",
+   "lat": 52.16666667,
+   "lon": -122.0833333
+ },
+ {
+   "name": "Pineview",
+   "lat": 53.83333333,
+   "lon": -122.65
+ },
+ {
+   "name": "Pitt Meadows",
+   "lat": 49.23333333,
+   "lon": -122.6833333
+ },
+ {
+   "name": "Pixie Beach",
+   "lat": 50.06666667,
+   "lon": -119.45
+ },
+ {
+   "name": "Playmor Junction",
+   "lat": 49.45,
+   "lon": -117.5333333
+ },
+ {
+   "name": "Pleasantside",
+   "lat": 49.29166667,
+   "lon": -122.85
+ },
+ {
+   "name": "Popkum",
+   "lat": 49.2,
+   "lon": -121.7333333
+ },
+ {
+   "name": "Poplar Grove",
+   "lat": 49.53333333,
+   "lon": -119.5666667
+ },
+ {
+   "name": "Port Essington",
+   "lat": 54.15916667,
+   "lon": -129.9641667
+ },
+ {
+   "name": "Port Guichon",
+   "lat": 49.08333333,
+   "lon": -123.1
+ },
+ {
+   "name": "Port Hammond",
+   "lat": 49.20694444,
+   "lon": -122.6625
+ },
+ {
+   "name": "Port Kells",
+   "lat": 49.16666667,
+   "lon": -122.7
+ },
+ {
+   "name": "Port Mann",
+   "lat": 49.2,
+   "lon": -122.8166667
+ },
+ {
+   "name": "Port Mellon",
+   "lat": 49.51666667,
+   "lon": -123.4833333
+ },
+ {
+   "name": "Port Renfrew",
+   "lat": 48.55,
+   "lon": -124.4166667
+ },
+ {
+   "name": "Port Washington",
+   "lat": 48.81305556,
+   "lon": -123.32
+ },
+ {
+   "name": "Powers Addition",
+   "lat": 50.68333333,
+   "lon": -120.35
+ },
+ {
+   "name": "Prairie Valley",
+   "lat": 49.58333333,
+   "lon": -119.7
+ },
+ {
+   "name": "Prespatou",
+   "lat": 56.93333333,
+   "lon": -121.05
+ },
+ {
+   "name": "Pritchard",
+   "lat": 50.68333333,
+   "lon": -119.8166667
+ },
+ {
+   "name": "Procter",
+   "lat": 49.61777778,
+   "lon": -116.9611111
+ },
+ {
+   "name": "Progress",
+   "lat": 55.78333333,
+   "lon": -120.7166667
+ },
+ {
+   "name": "Promontory",
+   "lat": 49.1,
+   "lon": -121.9333333
+ },
+ {
+   "name": "Prospect Lake",
+   "lat": 48.51666667,
+   "lon": -123.4333333
+ },
+ {
+   "name": "Qualicum Bay",
+   "lat": 49.4,
+   "lon": -124.6333333
+ },
+ {
+   "name": "Quathiaski Cove",
+   "lat": 50.05,
+   "lon": -125.2166667
+ },
+ {
+   "name": "Quatsino",
+   "lat": 50.53333333,
+   "lon": -127.65
+ },
+ {
+   "name": "Queens Bay",
+   "lat": 49.65,
+   "lon": -116.9333333
+ },
+ {
+   "name": "Queens Park",
+   "lat": 49.21666667,
+   "lon": -122.9
+ },
+ {
+   "name": "Queensborough",
+   "lat": 49.18333333,
+   "lon": -122.9333333
+ },
+ {
+   "name": "Quesnel View",
+   "lat": 52.95,
+   "lon": -122.5166667
+ },
+ {
+   "name": "Quick",
+   "lat": 54.61666667,
+   "lon": -126.9
+ },
+ {
+   "name": "Quinsam",
+   "lat": 50.01666667,
+   "lon": -125.2666667
+ },
+ {
+   "name": "Ranch Park",
+   "lat": 49.26666667,
+   "lon": -122.8166667
+ },
+ {
+   "name": "Ranchero",
+   "lat": 50.65416667,
+   "lon": -119.2
+ },
+ {
+   "name": "Raspberry",
+   "lat": 49.33472222,
+   "lon": -117.6580556
+ },
+ {
+   "name": "Rayleigh",
+   "lat": 50.81666667,
+   "lon": -120.3
+ },
+ {
+   "name": "Red Bluff",
+   "lat": 52.96666667,
+   "lon": -122.4666667
+ },
+ {
+   "name": "Red Rock",
+   "lat": 53.68333333,
+   "lon": -122.6666667
+ },
+ {
+   "name": "Redroofs",
+   "lat": 49.5,
+   "lon": -123.9166667
+ },
+ {
+   "name": "Reid Lake",
+   "lat": 53.96666667,
+   "lon": -123.1
+ },
+ {
+   "name": "Remo",
+   "lat": 54.48333333,
+   "lon": -128.7166667
+ },
+ {
+   "name": "Renfrew-Collingwood",
+   "lat": 49.25,
+   "lon": -123.0333333
+ },
+ {
+   "name": "Rich Bar",
+   "lat": 52.91666667,
+   "lon": -122.45
+ },
+ {
+   "name": "Ridgedale",
+   "lat": 49.11666667,
+   "lon": -122.25
+ },
+ {
+   "name": "Riley Park",
+   "lat": 49.25,
+   "lon": -123.1
+ },
+ {
+   "name": "Riondel",
+   "lat": 49.76666667,
+   "lon": -116.85
+ },
+ {
+   "name": "Riske Creek",
+   "lat": 51.96861111,
+   "lon": -122.5283333
+ },
+ {
+   "name": "River Jordan",
+   "lat": 48.41666667,
+   "lon": -124.05
+ },
+ {
+   "name": "River Springs",
+   "lat": 49.28333333,
+   "lon": -122.7666667
+ },
+ {
+   "name": "Rivervale",
+   "lat": 49.11666667,
+   "lon": -117.7333333
+ },
+ {
+   "name": "Roberts Creek",
+   "lat": 49.4225,
+   "lon": -123.6444444
+ },
+ {
+   "name": "Robson",
+   "lat": 49.33444444,
+   "lon": -117.6913889
+ },
+ {
+   "name": "Rock Creek",
+   "lat": 49.05,
+   "lon": -119
+ },
+ {
+   "name": "Rockyview",
+   "lat": 49.5,
+   "lon": -115.7833333
+ },
+ {
+   "name": "Rolla",
+   "lat": 55.9,
+   "lon": -120.1333333
+ },
+ {
+   "name": "Rose Lake",
+   "lat": 54.4,
+   "lon": -126.0333333
+ },
+ {
+   "name": "Rosedale",
+   "lat": 49.18333333,
+   "lon": -121.8
+ },
+ {
+   "name": "Ross Spur",
+   "lat": 49.18333333,
+   "lon": -117.4666667
+ },
+ {
+   "name": "Royal Oak",
+   "lat": 48.48333333,
+   "lon": -123.3833333
+ },
+ {
+   "name": "Royston",
+   "lat": 49.65,
+   "lon": -124.95
+ },
+ {
+   "name": "Rumble Beach",
+   "lat": 50.42777778,
+   "lon": -127.4847222
+ },
+ {
+   "name": "Ruskin",
+   "lat": 49.2,
+   "lon": -122.4333333
+ },
+ {
+   "name": "Rutland",
+   "lat": 49.9,
+   "lon": -119.3833333
+ },
+ {
+   "name": "Ryder Lake",
+   "lat": 49.1,
+   "lon": -121.8833333
+ },
+ {
+   "name": "Saanichton",
+   "lat": 48.6,
+   "lon": -123.4166667
+ },
+ {
+   "name": "Sahali",
+   "lat": 50.65,
+   "lon": -120.3333333
+ },
+ {
+   "name": "Sahara Heights",
+   "lat": 49.25,
+   "lon": -124.7833333
+ },
+ {
+   "name": "Sahtlam",
+   "lat": 48.76666667,
+   "lon": -123.8
+ },
+ {
+   "name": "Salmon Arm",
+   "lat": 50.7,
+   "lon": -119.2666667
+ },
+ {
+   "name": "Salmon Beach",
+   "lat": 48.96,
+   "lon": -125.4333333
+ },
+ {
+   "name": "Salmon Valley",
+   "lat": 54.08333333,
+   "lon": -122.7
+ },
+ {
+   "name": "Saltair",
+   "lat": 48.95,
+   "lon": -123.7666667
+ },
+ {
+   "name": "Saltery Bay",
+   "lat": 49.78333333,
+   "lon": -124.1833333
+ },
+ {
+   "name": "Sandspit",
+   "lat": 53.25,
+   "lon": -131.8166667
+ },
+ {
+   "name": "Sandwick",
+   "lat": 49.7,
+   "lon": -124.9833333
+ },
+ {
+   "name": "Sandy Cove",
+   "lat": 49.35,
+   "lon": -123.2333333
+ },
+ {
+   "name": "Sapperton",
+   "lat": 49.21666667,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Saratoga Beach",
+   "lat": 49.86666667,
+   "lon": -125.1166667
+ },
+ {
+   "name": "Sardis",
+   "lat": 49.13333333,
+   "lon": -121.95
+ },
+ {
+   "name": "Saseenos",
+   "lat": 48.38333333,
+   "lon": -123.6666667
+ },
+ {
+   "name": "Savona",
+   "lat": 50.75,
+   "lon": -120.8333333
+ },
+ {
+   "name": "Scotch Creek",
+   "lat": 50.9,
+   "lon": -119.45
+ },
+ {
+   "name": "Seafair",
+   "lat": 49.15,
+   "lon": -123.1833333
+ },
+ {
+   "name": "Secret Cove",
+   "lat": 49.53333333,
+   "lon": -123.95
+ },
+ {
+   "name": "Selma Park",
+   "lat": 49.46666667,
+   "lon": -123.7333333
+ },
+ {
+   "name": "Sentinel Hill",
+   "lat": 49.33611111,
+   "lon": -123.1375
+ },
+ {
+   "name": "Seton Portage",
+   "lat": 50.70694444,
+   "lon": -122.2888889
+ },
+ {
+   "name": "Sevenoaks",
+   "lat": 48.46666667,
+   "lon": -123.3833333
+ },
+ {
+   "name": "Sewell Inlet",
+   "lat": 52.87555556,
+   "lon": -131.9897222
+ },
+ {
+   "name": "Seymour Arm",
+   "lat": 51.23333333,
+   "lon": -118.95
+ },
+ {
+   "name": "Seymour Heights",
+   "lat": 49.325,
+   "lon": -123
+ },
+ {
+   "name": "Shady Valley",
+   "lat": 53.96666667,
+   "lon": -122.7166667
+ },
+ {
+   "name": "Shalalth",
+   "lat": 50.72722222,
+   "lon": -122.2169444
+ },
+ {
+   "name": "Shaughnessy",
+   "lat": 49.25,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Shawnigan Lake",
+   "lat": 48.65777778,
+   "lon": -123.6263889
+ },
+ {
+   "name": "Shelley",
+   "lat": 54,
+   "lon": -122.6166667
+ },
+ {
+   "name": "Shelter Point",
+   "lat": 49.93333333,
+   "lon": -125.1833333
+ },
+ {
+   "name": "Sheraton",
+   "lat": 54.16666667,
+   "lon": -125.4666667
+ },
+ {
+   "name": "Shoreacres",
+   "lat": 49.41666667,
+   "lon": -117.5333333
+ },
+ {
+   "name": "Shuswap",
+   "lat": 50.78333333,
+   "lon": -119.7
+ },
+ {
+   "name": "Shutty Bench",
+   "lat": 49.96666667,
+   "lon": -116.9166667
+ },
+ {
+   "name": "Silver Creek",
+   "lat": 49.36666667,
+   "lon": -121.45
+ },
+ {
+   "name": "Silver Valley",
+   "lat": 49.26666667,
+   "lon": -122.5666667
+ },
+ {
+   "name": "Silverhill",
+   "lat": 49.18333333,
+   "lon": -122.3833333
+ },
+ {
+   "name": "Sinclair Mills",
+   "lat": 54.015,
+   "lon": -121.6747222
+ },
+ {
+   "name": "Sirdar",
+   "lat": 49.23333333,
+   "lon": -116.6166667
+ },
+ {
+   "name": "Six Mile Point",
+   "lat": 50.76666667,
+   "lon": -119.0166667
+ },
+ {
+   "name": "Skidegate",
+   "lat": 53.26666667,
+   "lon": -131.9902778
+ },
+ {
+   "name": "Slesse Park",
+   "lat": 49.08333333,
+   "lon": -121.8166667
+ },
+ {
+   "name": "Slocan Park",
+   "lat": 49.51666667,
+   "lon": -117.6166667
+ },
+ {
+   "name": "Soda Creek",
+   "lat": 52.35,
+   "lon": -122.2833333
+ },
+ {
+   "name": "Sointula",
+   "lat": 50.63333333,
+   "lon": -127.0166667
+ },
+ {
+   "name": "Solsqua",
+   "lat": 50.86666667,
+   "lon": -118.95
+ },
+ {
+   "name": "Somenos",
+   "lat": 48.81666667,
+   "lon": -123.7333333
+ },
+ {
+   "name": "Sorrento",
+   "lat": 50.87694444,
+   "lon": -119.4669444
+ },
+ {
+   "name": "South Cambie",
+   "lat": 49.25,
+   "lon": -123.1166667
+ },
+ {
+   "name": "South Canoe",
+   "lat": 50.7,
+   "lon": -119.2166667
+ },
+ {
+   "name": "South Dawson",
+   "lat": 55.73333333,
+   "lon": -120.35
+ },
+ {
+   "name": "South Fort George",
+   "lat": 53.9,
+   "lon": -122.75
+ },
+ {
+   "name": "South Hazelton",
+   "lat": 55.23333333,
+   "lon": -127.6666667
+ },
+ {
+   "name": "South Lakeside",
+   "lat": 52.10833333,
+   "lon": -122.0972222
+ },
+ {
+   "name": "South Poplar",
+   "lat": 49.01666667,
+   "lon": -122.3166667
+ },
+ {
+   "name": "South Shalalth",
+   "lat": 50.71666667,
+   "lon": -122.25
+ },
+ {
+   "name": "South Slocan",
+   "lat": 49.46666667,
+   "lon": -117.5166667
+ },
+ {
+   "name": "South Slope",
+   "lat": 49.21666667,
+   "lon": -123
+ },
+ {
+   "name": "South Sumas",
+   "lat": 49.11666667,
+   "lon": -122
+ },
+ {
+   "name": "South Taylor",
+   "lat": 56.1,
+   "lon": -120.6333333
+ },
+ {
+   "name": "South Wellington",
+   "lat": 49.1,
+   "lon": -123.8833333
+ },
+ {
+   "name": "Southarm",
+   "lat": 49.13333333,
+   "lon": -123.1
+ },
+ {
+   "name": "Southbank",
+   "lat": 54.01666667,
+   "lon": -125.7666667
+ },
+ {
+   "name": "Spences Bridge",
+   "lat": 50.42194444,
+   "lon": -121.3438889
+ },
+ {
+   "name": "Spillimacheen",
+   "lat": 50.9,
+   "lon": -116.3666667
+ },
+ {
+   "name": "Springhouse",
+   "lat": 51.96666667,
+   "lon": -122.1333333
+ },
+ {
+   "name": "Sproat Lake",
+   "lat": 49.28333333,
+   "lon": -124.9166667
+ },
+ {
+   "name": "Squilax",
+   "lat": 50.87361111,
+   "lon": -119.6111111
+ },
+ {
+   "name": "St. Eugene Mission",
+   "lat": 49.58333333,
+   "lon": -115.75
+ },
+ {
+   "name": "St. Ives",
+   "lat": 50.98333333,
+   "lon": -119.1
+ },
+ {
+   "name": "St. Joseph Mission",
+   "lat": 52.06666667,
+   "lon": -121.95
+ },
+ {
+   "name": "Stave Falls",
+   "lat": 49.21666667,
+   "lon": -122.35
+ },
+ {
+   "name": "Steelhead",
+   "lat": 49.23333333,
+   "lon": -122.3166667
+ },
+ {
+   "name": "Stellako",
+   "lat": 54.06666667,
+   "lon": -124.9
+ },
+ {
+   "name": "Steveston",
+   "lat": 49.13333333,
+   "lon": -123.1833333
+ },
+ {
+   "name": "Stillwater",
+   "lat": 49.76666667,
+   "lon": -124.3
+ },
+ {
+   "name": "Stoner",
+   "lat": 53.63333333,
+   "lon": -122.65
+ },
+ {
+   "name": "Stories Beach",
+   "lat": 49.91944444,
+   "lon": -125.1861111
+ },
+ {
+   "name": "Straiton",
+   "lat": 49.08333333,
+   "lon": -122.2
+ },
+ {
+   "name": "Strathcona",
+   "lat": 49.28333333,
+   "lon": -123.0833333
+ },
+ {
+   "name": "Strathnaver",
+   "lat": 53.28361111,
+   "lon": -122.4922222
+ },
+ {
+   "name": "Strawberry Hill",
+   "lat": 49.13333333,
+   "lon": -122.8833333
+ },
+ {
+   "name": "Strawberry Vale",
+   "lat": 48.46666667,
+   "lon": -123.4166667
+ },
+ {
+   "name": "Stuie",
+   "lat": 52.36666667,
+   "lon": -126.0666667
+ },
+ {
+   "name": "Stump Lake",
+   "lat": 50.38333333,
+   "lon": -120.3333333
+ },
+ {
+   "name": "Sturdies Bay",
+   "lat": 48.87916667,
+   "lon": -123.3194444
+ },
+ {
+   "name": "Sugarcane",
+   "lat": 52.10833333,
+   "lon": -121.9944444
+ },
+ {
+   "name": "Sullivan",
+   "lat": 49.11666667,
+   "lon": -122.8
+ },
+ {
+   "name": "Sullivan Heights",
+   "lat": 49.25,
+   "lon": -122.9
+ },
+ {
+   "name": "Summit Lake",
+   "lat": 54.25,
+   "lon": -122.6333333
+ },
+ {
+   "name": "Sun Valley",
+   "lat": 49.28333333,
+   "lon": -122.7333333
+ },
+ {
+   "name": "Suncrest",
+   "lat": 49.21666667,
+   "lon": -123.0166667
+ },
+ {
+   "name": "Sunningdale",
+   "lat": 49.11666667,
+   "lon": -117.7166667
+ },
+ {
+   "name": "Sunnybrae",
+   "lat": 50.76666667,
+   "lon": -119.2666667
+ },
+ {
+   "name": "Sunnyside",
+   "lat": 54.65,
+   "lon": -124.7333333
+ },
+ {
+   "name": "Sunset",
+   "lat": 49.21666667,
+   "lon": -123.0833333
+ },
+ {
+   "name": "Sunset Beach",
+   "lat": 49.4,
+   "lon": -123.25
+ },
+ {
+   "name": "Sunset Prairie",
+   "lat": 55.85,
+   "lon": -120.7666667
+ },
+ {
+   "name": "Sunshine Bay",
+   "lat": 49.6,
+   "lon": -117
+ },
+ {
+   "name": "Sunshine Hills",
+   "lat": 49.11666667,
+   "lon": -122.9
+ },
+ {
+   "name": "Sunshine Valley",
+   "lat": 49.26666667,
+   "lon": -121.2333333
+ },
+ {
+   "name": "Surrey Centre",
+   "lat": 49.11666667,
+   "lon": -122.75
+ },
+ {
+   "name": "Ta Ta Creek",
+   "lat": 49.78333333,
+   "lon": -115.7833333
+ },
+ {
+   "name": "Tachie",
+   "lat": 54.65305556,
+   "lon": -124.7305556
+ },
+ {
+   "name": "Tadanac",
+   "lat": 49.11666667,
+   "lon": -117.7166667
+ },
+ {
+   "name": "Taghum",
+   "lat": 49.48333333,
+   "lon": -117.3833333
+ },
+ {
+   "name": "Tamarisk",
+   "lat": 50.1,
+   "lon": -123.0166667
+ },
+ {
+   "name": "Tappen",
+   "lat": 50.78333333,
+   "lon": -119.3333333
+ },
+ {
+   "name": "Tarrys",
+   "lat": 49.38333333,
+   "lon": -117.55
+ },
+ {
+   "name": "Tchesinkut Lake",
+   "lat": 54.08333333,
+   "lon": -125.7333333
+ },
+ {
+   "name": "Teeshohsum",
+   "lat": 49.89722222,
+   "lon": -124.6083333
+ },
+ {
+   "name": "Telegraph Creek",
+   "lat": 57.9,
+   "lon": -131.1666667
+ },
+ {
+   "name": "Ten Mile Lake",
+   "lat": 53.08333333,
+   "lon": -122.4333333
+ },
+ {
+   "name": "Thetis Island",
+   "lat": 48.98333333,
+   "lon": -123.6833333
+ },
+ {
+   "name": "Thompson",
+   "lat": 49.16666667,
+   "lon": -123.1666667
+ },
+ {
+   "name": "Thornhill",
+   "lat": 54.51666667,
+   "lon": -128.5333333
+ },
+ {
+   "name": "Thrums",
+   "lat": 49.33333333,
+   "lon": -117.5833333
+ },
+ {
+   "name": "Tillicum",
+   "lat": 48.45,
+   "lon": -123.4
+ },
+ {
+   "name": "Tintagel",
+   "lat": 54.2,
+   "lon": -125.6
+ },
+ {
+   "name": "Tl'esqox",
+   "lat": 51.93083333,
+   "lon": -122.5027778
+ },
+ {
+   "name": "Tl'etinqox",
+   "lat": 52.01361111,
+   "lon": -123.17
+ },
+ {
+   "name": "Tlell",
+   "lat": 53.56666667,
+   "lon": -131.9333333
+ },
+ {
+   "name": "Topley",
+   "lat": 54.5,
+   "lon": -126.3
+ },
+ {
+   "name": "Topley Landing",
+   "lat": 54.8,
+   "lon": -126.1333333
+ },
+ {
+   "name": "Traders Cove",
+   "lat": 49.93333333,
+   "lon": -119.5
+ },
+ {
+   "name": "Tranquille",
+   "lat": 50.71666667,
+   "lon": -120.5166667
+ },
+ {
+   "name": "Trinity Valley",
+   "lat": 50.4,
+   "lon": -118.9166667
+ },
+ {
+   "name": "Trout Creek",
+   "lat": 49.56944444,
+   "lon": -119.6263889
+ },
+ {
+   "name": "Trout Lake",
+   "lat": 50.64722222,
+   "lon": -117.5388889
+ },
+ {
+   "name": "Trépanier",
+   "lat": 49.78333333,
+   "lon": -119.7
+ },
+ {
+   "name": "Tsawwassen",
+   "lat": 49.01666667,
+   "lon": -123.0833333
+ },
+ {
+   "name": "Tsawwassen Beach",
+   "lat": 49,
+   "lon": -123.0833333
+ },
+ {
+   "name": "Ts?ideldel",
+   "lat": 52.13916667,
+   "lon": -123.9522222
+ },
+ {
+   "name": "Tulameen",
+   "lat": 49.54583333,
+   "lon": -120.7583333
+ },
+ {
+   "name": "Tumbler Ridge",
+   "lat": 55.13333333,
+   "lon": -121
+ },
+ {
+   "name": "Turtle Valley",
+   "lat": 50.81666667,
+   "lon": -119.6
+ },
+ {
+   "name": "Two Mile",
+   "lat": 55.26666667,
+   "lon": -127.6166667
+ },
+ {
+   "name": "Two Rivers",
+   "lat": 56.18333333,
+   "lon": -120.5333333
+ },
+ {
+   "name": "Tynehead",
+   "lat": 49.18333333,
+   "lon": -122.7333333
+ },
+ {
+   "name": "Tzouhalem",
+   "lat": 48.78333333,
+   "lon": -123.65
+ },
+ {
+   "name": "Tête Jaune Cache",
+   "lat": 52.96666667,
+   "lon": -119.4291667
+ },
+ {
+   "name": "Union Bay",
+   "lat": 49.58333333,
+   "lon": -124.8833333
+ },
+ {
+   "name": "University Hill",
+   "lat": 49.26666667,
+   "lon": -123.25
+ },
+ {
+   "name": "Upper China Creek",
+   "lat": 49.22083333,
+   "lon": -117.6944444
+ },
+ {
+   "name": "Upper Fraser",
+   "lat": 54.11666667,
+   "lon": -121.9333333
+ },
+ {
+   "name": "Upper Halfway",
+   "lat": 56.51111111,
+   "lon": -122.2375
+ },
+ {
+   "name": "Upper Lynn",
+   "lat": 49.35,
+   "lon": -123.025
+ },
+ {
+   "name": "Usk",
+   "lat": 54.63333333,
+   "lon": -128.4166667
+ },
+ {
+   "name": "Valleycliffe",
+   "lat": 49.7,
+   "lon": -123.1333333
+ },
+ {
+   "name": "Valleyview",
+   "lat": 50.66666667,
+   "lon": -120.25
+ },
+ {
+   "name": "Vallican",
+   "lat": 49.56666667,
+   "lon": -117.65
+ },
+ {
+   "name": "Van Anda",
+   "lat": 49.75833333,
+   "lon": -124.55
+ },
+ {
+   "name": "Vanway",
+   "lat": 53.85,
+   "lon": -122.8166667
+ },
+ {
+   "name": "Vavenby",
+   "lat": 51.58333333,
+   "lon": -119.7166667
+ },
+ {
+   "name": "Vedder Crossing",
+   "lat": 49.1,
+   "lon": -121.9666667
+ },
+ {
+   "name": "Victoria-Fraserview",
+   "lat": 49.21666667,
+   "lon": -123.0666667
+ },
+ {
+   "name": "Vinsulla",
+   "lat": 50.91666667,
+   "lon": -120.2333333
+ },
+ {
+   "name": "Walhachin",
+   "lat": 50.75,
+   "lon": -120.9833333
+ },
+ {
+   "name": "Walnut Grove",
+   "lat": 49.18333333,
+   "lon": -122.65
+ },
+ {
+   "name": "Waneta Junction",
+   "lat": 49.08333333,
+   "lon": -117.6166667
+ },
+ {
+   "name": "Wardner",
+   "lat": 49.41666667,
+   "lon": -115.4166667
+ },
+ {
+   "name": "Wasa",
+   "lat": 49.78333333,
+   "lon": -115.7333333
+ },
+ {
+   "name": "Websters Corners",
+   "lat": 49.21666667,
+   "lon": -122.5166667
+ },
+ {
+   "name": "Wellington",
+   "lat": 49.21416667,
+   "lon": -124.04
+ },
+ {
+   "name": "Wells",
+   "lat": 53.1,
+   "lon": -121.5666667
+ },
+ {
+   "name": "West Bay",
+   "lat": 49.33333333,
+   "lon": -123.2
+ },
+ {
+   "name": "West Bench",
+   "lat": 49.5,
+   "lon": -119.6166667
+ },
+ {
+   "name": "West End",
+   "lat": 49.28333333,
+   "lon": -123.1333333
+ },
+ {
+   "name": "West End",
+   "lat": 49.2,
+   "lon": -122.9333333
+ },
+ {
+   "name": "West Heights",
+   "lat": 49.13333333,
+   "lon": -122.3333333
+ },
+ {
+   "name": "West Lynn",
+   "lat": 49.33333333,
+   "lon": -123.0333333
+ },
+ {
+   "name": "West Midway",
+   "lat": 49.01666667,
+   "lon": -118.8166667
+ },
+ {
+   "name": "West Point Grey",
+   "lat": 49.26666667,
+   "lon": -123.2
+ },
+ {
+   "name": "West Trail",
+   "lat": 49.08333333,
+   "lon": -117.7166667
+ },
+ {
+   "name": "Westbank",
+   "lat": 49.83333333,
+   "lon": -119.6333333
+ },
+ {
+   "name": "Westholme",
+   "lat": 48.86666667,
+   "lon": -123.7
+ },
+ {
+   "name": "Westmount",
+   "lat": 49.33333333,
+   "lon": -123.2166667
+ },
+ {
+   "name": "Westridge",
+   "lat": 49.28333333,
+   "lon": -122.95
+ },
+ {
+   "name": "Westside",
+   "lat": 49.89055556,
+   "lon": -119.5311111
+ },
+ {
+   "name": "Westsyde",
+   "lat": 50.76666667,
+   "lon": -120.35
+ },
+ {
+   "name": "Westview",
+   "lat": 49.83333333,
+   "lon": -124.5166667
+ },
+ {
+   "name": "Westwold",
+   "lat": 50.46666667,
+   "lon": -119.75
+ },
+ {
+   "name": "Wet'suwet'en Village",
+   "lat": 54.32777778,
+   "lon": -125.8833333
+ },
+ {
+   "name": "Whisky Creek",
+   "lat": 49.30833333,
+   "lon": -124.5055556
+ },
+ {
+   "name": "Whistler Creek",
+   "lat": 50.09583333,
+   "lon": -122.9930556
+ },
+ {
+   "name": "White Lake",
+   "lat": 50.88333333,
+   "lon": -119.3
+ },
+ {
+   "name": "Whonnock",
+   "lat": 49.18333333,
+   "lon": -122.4666667
+ },
+ {
+   "name": "Whyac",
+   "lat": 48.66666667,
+   "lon": -124.85
+ },
+ {
+   "name": "Whytecliff",
+   "lat": 49.36666667,
+   "lon": -123.2833333
+ },
+ {
+   "name": "Wildwood",
+   "lat": 49.9,
+   "lon": -124.5666667
+ },
+ {
+   "name": "Wiley",
+   "lat": 54.51666667,
+   "lon": -126.3333333
+ },
+ {
+   "name": "Williams Beach",
+   "lat": 49.83333333,
+   "lon": -125.05
+ },
+ {
+   "name": "Willingdon Heights",
+   "lat": 49.275,
+   "lon": -123.0083333
+ },
+ {
+   "name": "Willow Point",
+   "lat": 49.56666667,
+   "lon": -117.2333333
+ },
+ {
+   "name": "Willow River",
+   "lat": 54.06666667,
+   "lon": -122.4666667
+ },
+ {
+   "name": "Willowbrook",
+   "lat": 49.26666667,
+   "lon": -119.5833333
+ },
+ {
+   "name": "Wilmer",
+   "lat": 50.53333333,
+   "lon": -116.0666667
+ },
+ {
+   "name": "Wilson Creek",
+   "lat": 49.44722222,
+   "lon": -123.7111111
+ },
+ {
+   "name": "Windermere",
+   "lat": 50.46361111,
+   "lon": -115.9888889
+ },
+ {
+   "name": "Windsor Park",
+   "lat": 49.31666667,
+   "lon": -122.9833333
+ },
+ {
+   "name": "Winfield",
+   "lat": 50.03333333,
+   "lon": -119.4
+ },
+ {
+   "name": "Winlaw",
+   "lat": 49.61666667,
+   "lon": -117.5666667
+ },
+ {
+   "name": "Winter Harbour",
+   "lat": 50.51666667,
+   "lon": -128.0333333
+ },
+ {
+   "name": "Wonowon",
+   "lat": 56.73333333,
+   "lon": -121.8
+ },
+ {
+   "name": "Woodhaven",
+   "lat": 49.31666667,
+   "lon": -122.9
+ },
+ {
+   "name": "Woodlands",
+   "lat": 49.33333333,
+   "lon": -122.9166667
+ },
+ {
+   "name": "Woodpecker",
+   "lat": 53.52944444,
+   "lon": -122.6888889
+ },
+ {
+   "name": "Woodsdale",
+   "lat": 50.05,
+   "lon": -119.3833333
+ },
+ {
+   "name": "Woss",
+   "lat": 50.21666667,
+   "lon": -126.6
+ },
+ {
+   "name": "Wycliffe",
+   "lat": 49.6,
+   "lon": -115.8666667
+ },
+ {
+   "name": "Wynndel",
+   "lat": 49.18,
+   "lon": -116.5525
+ },
+ {
+   "name": "Xeni",
+   "lat": 51.46722222,
+   "lon": -123.9447222
+ },
+ {
+   "name": "Yaculta",
+   "lat": 50.01666667,
+   "lon": -125.2
+ },
+ {
+   "name": "Yahk",
+   "lat": 49.08333333,
+   "lon": -116.0833333
+ },
+ {
+   "name": "Yale",
+   "lat": 49.5625,
+   "lon": -121.4305556
+ },
+ {
+   "name": "Yarksis",
+   "lat": 49.16666667,
+   "lon": -125.9666667
+ },
+ {
+   "name": "Yarrow",
+   "lat": 49.08333333,
+   "lon": -122.05
+ },
+ {
+   "name": "Ymir",
+   "lat": 49.28333333,
+   "lon": -117.2166667
+ },
+ {
+   "name": "Youbou",
+   "lat": 48.86666667,
+   "lon": -124.2
+ },
+ {
+   "name": "Yunes?it'in",
+   "lat": 51.92444444,
+   "lon": -123.1363889
+ },
+ {
+   "name": "Yuquot",
+   "lat": 49.6,
+   "lon": -126.6166667
+ },
+ {
+   "name": "?Esdilagh",
+   "lat": 52.56305556,
+   "lon": -122.4972222
+ }
+]
